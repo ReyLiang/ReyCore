@@ -1,0 +1,66 @@
+/* 
+  ReySocket.strings
+  ReySocketDemo
+
+  Created by rey liang on 11-9-16.
+  Copyright 2011年 __MyCompanyName__. All rights reserved.
+*/
+
+
+//========按钮本地化
+"SUBMIT" = "确认"; 
+"CANCLE" = "取消";
+"RETRY" = "重试";
+"ALTF4" = "退出游戏";
+//========
+
+
+//========socket错误
+"ERROR TITLE" = "网络链接";
+"ERRORMSG SOCKET" = "创建错误!";
+"ERRORMSG CONNECT" = "链接错误!";
+"ERRORMSG CONNECT TIMEOUT" = "链接超时!";
+"ERRORMSG DISCONNECT" = "断开链接!";
+"ERRORMSG RECV" = "数据接收错误!";
+"ERRORMSG RECV OVERFLOW" = "数据接收溢出错误!";
+"ERRORMSG SEND" = "数据发送错误!";
+"ERRORMSG SEND TIMEOUT" = "数据发送超时!";
+//========
+
+
+//========Login错误
+"LOGIN TITLE" = "登录";
+"LOGIN ERROR" = "用户名或密码错误!";
+"LOGIN QUICK ERROR" = "二维码扫描错误!";
+"LOGIN OFFLIEN" = "用户不在线!请先在PC端登录!";
+"LOGIN EMPTY" = "用户名或密码不能为空!";
+"LOGIN GS ERROR" = "无法链接到服务器!";
+"DISCONNECT GS ERROR" = "从服务器断开!";
+"DISMISS GS ERROR" = "和服务器链接失败,请重新登录!";
+//========
+
+
+//========XML解析错误
+"XMLPARSER TITLE" = "XML文件解析";
+"XMLPARSER ERROR" = "XML文件解析错误!";
+//========
+
+//========自动断开链接
+"AUTODISCONNECT TITLE" = "移动端自动断开倒计时";
+"AUTODISCONNECT SUBTITLE" = "剩余: ";
+//========
+
+//========自动更新错误
+"AUTOUPDATE TITLE" = "自动更新";
+"AUTOUPDATE ERROR" = "自动更新返回数据错误!";
+"AUTOUPDATE LASTEST" = "按键配置文件是最新的!";
+"AUTOUPDATE SERVER" = "链接服务器失败!";
+//========
+
+//========获取Gid错误
+"GETGID TITLE" = "游戏信息";
+"GETGID ERROR" = "获得游戏信息失败";
+"GETNONEGID ERROR" = "请在客户端进入一款游戏后,再更新!";
+"GETNONEUID ERROR" = "用户不存在!";
+"GETNONESUPPORT ERROR" = "该游戏现在不支持!";
+//========

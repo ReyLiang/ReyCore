@@ -1,0 +1,69 @@
+/* 
+  ReySocket.strings
+  ReySocketDemo
+
+  Created by rey liang on 11-9-16.
+  Copyright 2011年 __MyCompanyName__. All rights reserved.
+*/
+
+//========按钮本地化
+"SUBMIT" = "Submit"; 
+"CANCLE" = "Cancle";
+"RETRY" = "Retry";
+"ALTF4" = "Alt+F4";
+//========
+
+
+//========socket错误
+"ERROR TITLE" = "Socket";
+"ERRORMSG SOCKET" = "Socket created error!";
+"ERRORMSG CONNECT" = "Socket connect error!";
+"ERRORMSG CONNECT TIMEOUT" = "Net connect timeout!";
+"ERRORMSG DISCONNECT" = "Socket disconnet!";
+"ERRORMSG RECV" = "Socket receive data error!";
+"ERRORMSG RECV OVERFLOW" = "Socket receive data overflow error!";
+"ERRORMSG SEND" = "Socket send data error!";
+"ERRORMSG SEND TIMEOUT" = "Socket send data timeout!";
+//========
+
+
+//========Login错误
+"LOGIN TITLE" = "Login";
+"LOGIN ERROR" = "User name or Password error!";
+"LOGIN QUICK ERROR" = "QRCode error!";
+"LOGIN OFFLIEN" = "User is offline, please login on PC first!";
+"LOGIN EMPTY" = "User name or Password is empty!";
+"LOGIN GS ERROR" = "Connect to Server faild!";
+"DISCONNECT GS ERROR" = "Disconnect From Server faild!";
+"DISMISS GS ERROR" = "Can not Connect to Server!";
+
+
+//========
+
+
+//========XML解析错误
+"XMLPARSER TITLE" = "XML parser";
+"XMLPARSER ERROR" = "XML parser error!";
+//========
+
+//========自动断开链接
+"AUTODISCONNECT TITLE" = "Mobile will Disconnect Frome Server";
+"AUTODISCONNECT SUBTITLE" = "After: ";
+//========
+
+//========自动更新错误
+"AUTOUPDATE TITLE" = "AutoUpdate";
+"AUTOUPDATE ERROR" = "AutoUpdate receiveData error!";
+"AUTOUPDATE LASTEST" = "Key-files are lastest!";
+"AUTOUPDATE SERVER" = "Server can not connected!";
+//========
+
+//========获取Gid错误
+"GETGID TITLE" = "GameInfo";
+"GETGID ERROR" = "Get Game Info error!";
+"GETNONEGID ERROR" = "Please enter a game!";
+"GETNONEUID ERROR" = "User Info error!";
+"GETNONESUPPORT ERROR" = "Game not support!";
+//========
+
+

@@ -1,0 +1,2228 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F10192D514DFA1CD001716F2 /* ReySlipView.h in Headers */ = {isa = PBXBuildFile; fileRef = F10192D314DFA1CD001716F2 /* ReySlipView.h */; };
+		F10192D614DFA1CD001716F2 /* ReySlipView.m in Sources */ = {isa = PBXBuildFile; fileRef = F10192D414DFA1CD001716F2 /* ReySlipView.m */; };
+		F10497811570CA0E00B4D7F7 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F10497801570CA0E00B4D7F7 /* CoreFoundation.framework */; };
+		F10497831570CA1700B4D7F7 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F10497801570CA0E00B4D7F7 /* CoreFoundation.framework */; };
+		F10F474B15CA7D91000C0B89 /* ReyDownload_soap.h in Headers */ = {isa = PBXBuildFile; fileRef = F10F474915CA7D91000C0B89 /* ReyDownload_soap.h */; };
+		F10F474C15CA7D91000C0B89 /* ReyDownload_soap.h in Headers */ = {isa = PBXBuildFile; fileRef = F10F474915CA7D91000C0B89 /* ReyDownload_soap.h */; };
+		F10F474D15CA7D91000C0B89 /* ReyDownload_soap.m in Sources */ = {isa = PBXBuildFile; fileRef = F10F474A15CA7D91000C0B89 /* ReyDownload_soap.m */; };
+		F10F474E15CA7D91000C0B89 /* ReyDownload_soap.m in Sources */ = {isa = PBXBuildFile; fileRef = F10F474A15CA7D91000C0B89 /* ReyDownload_soap.m */; };
+		F1109A4915D0BB6700DA03E7 /* ReyMD5.h in Headers */ = {isa = PBXBuildFile; fileRef = F1109A4715D0BB6700DA03E7 /* ReyMD5.h */; };
+		F1109A4A15D0BB6700DA03E7 /* ReyMD5.h in Headers */ = {isa = PBXBuildFile; fileRef = F1109A4715D0BB6700DA03E7 /* ReyMD5.h */; };
+		F1109A4B15D0BB6700DA03E7 /* ReyMD5.mm in Sources */ = {isa = PBXBuildFile; fileRef = F1109A4815D0BB6700DA03E7 /* ReyMD5.mm */; };
+		F1109A4C15D0BB6700DA03E7 /* ReyMD5.mm in Sources */ = {isa = PBXBuildFile; fileRef = F1109A4815D0BB6700DA03E7 /* ReyMD5.mm */; };
+		F1113FB6149775ED005E10C3 /* ReyError.h in Headers */ = {isa = PBXBuildFile; fileRef = F1113FB4149775ED005E10C3 /* ReyError.h */; };
+		F1113FB7149775ED005E10C3 /* ReyError.m in Sources */ = {isa = PBXBuildFile; fileRef = F1113FB5149775ED005E10C3 /* ReyError.m */; };
+		F116408816CF6B3800485FAD /* ReyDownloadManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F116408316CF6B3800485FAD /* ReyDownloadManager.h */; };
+		F116408916CF6B3800485FAD /* ReyDownloadManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F116408316CF6B3800485FAD /* ReyDownloadManager.h */; };
+		F116408A16CF6B3800485FAD /* ReyDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F116408416CF6B3800485FAD /* ReyDownloadManager.m */; };
+		F116408B16CF6B3800485FAD /* ReyDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F116408416CF6B3800485FAD /* ReyDownloadManager.m */; };
+		F116408C16CF6B3800485FAD /* ReyDownloadItem_private.h in Headers */ = {isa = PBXBuildFile; fileRef = F116408516CF6B3800485FAD /* ReyDownloadItem_private.h */; };
+		F116408D16CF6B3800485FAD /* ReyDownloadItem_private.h in Headers */ = {isa = PBXBuildFile; fileRef = F116408516CF6B3800485FAD /* ReyDownloadItem_private.h */; };
+		F116408E16CF6B3800485FAD /* ReyDownloadItem.h in Headers */ = {isa = PBXBuildFile; fileRef = F116408616CF6B3800485FAD /* ReyDownloadItem.h */; };
+		F116408F16CF6B3800485FAD /* ReyDownloadItem.h in Headers */ = {isa = PBXBuildFile; fileRef = F116408616CF6B3800485FAD /* ReyDownloadItem.h */; };
+		F116409016CF6B3800485FAD /* ReyDownloadItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F116408716CF6B3800485FAD /* ReyDownloadItem.m */; };
+		F116409116CF6B3800485FAD /* ReyDownloadItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F116408716CF6B3800485FAD /* ReyDownloadItem.m */; };
+		F1220E8514EB4EC70094EE75 /* ReyImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = F1220E8314EB4EC70094EE75 /* ReyImageView.h */; };
+		F1220E8614EB4EC70094EE75 /* ReyImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1220E8414EB4EC70094EE75 /* ReyImageView.m */; };
+		F12337AF16528CB20019B122 /* ReyScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = F12337AD16528CB20019B122 /* ReyScrollView.h */; };
+		F12337B016528CB20019B122 /* ReyScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = F12337AD16528CB20019B122 /* ReyScrollView.h */; };
+		F12337B116528CB20019B122 /* ReyScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = F12337AE16528CB20019B122 /* ReyScrollView.m */; };
+		F12337B216528CB20019B122 /* ReyScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = F12337AE16528CB20019B122 /* ReyScrollView.m */; };
+		F12337C4165344270019B122 /* ReyScrollView_detailView.h in Headers */ = {isa = PBXBuildFile; fileRef = F12337C2165344270019B122 /* ReyScrollView_detailView.h */; };
+		F12337C5165344270019B122 /* ReyScrollView_detailView.h in Headers */ = {isa = PBXBuildFile; fileRef = F12337C2165344270019B122 /* ReyScrollView_detailView.h */; };
+		F12337C6165344270019B122 /* ReyScrollView_detailView.m in Sources */ = {isa = PBXBuildFile; fileRef = F12337C3165344270019B122 /* ReyScrollView_detailView.m */; };
+		F12337C7165344270019B122 /* ReyScrollView_detailView.m in Sources */ = {isa = PBXBuildFile; fileRef = F12337C3165344270019B122 /* ReyScrollView_detailView.m */; };
+		F123A5CD14A424E50004D927 /* IrregularShapedButton.h in Headers */ = {isa = PBXBuildFile; fileRef = F123A5C914A424E50004D927 /* IrregularShapedButton.h */; };
+		F123A5CE14A424E50004D927 /* IrregularShapedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F123A5CA14A424E50004D927 /* IrregularShapedButton.m */; };
+		F123A5CF14A424E50004D927 /* UIImage-Alpha.h in Headers */ = {isa = PBXBuildFile; fileRef = F123A5CB14A424E50004D927 /* UIImage-Alpha.h */; };
+		F123A5D014A424E50004D927 /* UIImage-Alpha.m in Sources */ = {isa = PBXBuildFile; fileRef = F123A5CC14A424E50004D927 /* UIImage-Alpha.m */; };
+		F12D309515206B120022A198 /* ReyDownload_cache.h in Headers */ = {isa = PBXBuildFile; fileRef = F12D309315206B120022A198 /* ReyDownload_cache.h */; };
+		F12D309615206B120022A198 /* ReyDownload_cache.h in Headers */ = {isa = PBXBuildFile; fileRef = F12D309315206B120022A198 /* ReyDownload_cache.h */; };
+		F12D309715206B120022A198 /* ReyDownload_cache.m in Sources */ = {isa = PBXBuildFile; fileRef = F12D309415206B120022A198 /* ReyDownload_cache.m */; };
+		F12D309815206B120022A198 /* ReyDownload_cache.m in Sources */ = {isa = PBXBuildFile; fileRef = F12D309415206B120022A198 /* ReyDownload_cache.m */; };
+		F1300F7A14979B87001AA8E3 /* ReyLoading.h in Headers */ = {isa = PBXBuildFile; fileRef = F1300F7814979B87001AA8E3 /* ReyLoading.h */; };
+		F1300F7B14979B87001AA8E3 /* ReyLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = F1300F7914979B87001AA8E3 /* ReyLoading.m */; };
+		F138909015CFB7510066A5F9 /* ReyLabel_rocker.h in Headers */ = {isa = PBXBuildFile; fileRef = F138908E15CFB7510066A5F9 /* ReyLabel_rocker.h */; };
+		F138909115CFB7510066A5F9 /* ReyLabel_rocker.h in Headers */ = {isa = PBXBuildFile; fileRef = F138908E15CFB7510066A5F9 /* ReyLabel_rocker.h */; };
+		F138909215CFB7510066A5F9 /* ReyLabel_rocker.m in Sources */ = {isa = PBXBuildFile; fileRef = F138908F15CFB7510066A5F9 /* ReyLabel_rocker.m */; };
+		F138909315CFB7510066A5F9 /* ReyLabel_rocker.m in Sources */ = {isa = PBXBuildFile; fileRef = F138908F15CFB7510066A5F9 /* ReyLabel_rocker.m */; };
+		F13951261520C41E00AF8244 /* ReyAlert_autoDisconnect.h in Headers */ = {isa = PBXBuildFile; fileRef = F13951251520C41E00AF8244 /* ReyAlert_autoDisconnect.h */; };
+		F13951271520C41E00AF8244 /* ReyAlert_autoDisconnect.h in Headers */ = {isa = PBXBuildFile; fileRef = F13951251520C41E00AF8244 /* ReyAlert_autoDisconnect.h */; };
+		F139512A1520C43300AF8244 /* ReyAlert_autoDisconnect.m in Sources */ = {isa = PBXBuildFile; fileRef = F13951291520C43300AF8244 /* ReyAlert_autoDisconnect.m */; };
+		F139512B1520C43300AF8244 /* ReyAlert_autoDisconnect.m in Sources */ = {isa = PBXBuildFile; fileRef = F13951291520C43300AF8244 /* ReyAlert_autoDisconnect.m */; };
+		F139512D1520C44200AF8244 /* ReyAutoDisconnAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = F139512C1520C44200AF8244 /* ReyAutoDisconnAlert.h */; };
+		F139512E1520C44200AF8244 /* ReyAutoDisconnAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = F139512C1520C44200AF8244 /* ReyAutoDisconnAlert.h */; };
+		F13951301520C44D00AF8244 /* ReyAutoDisconnAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = F139512F1520C44D00AF8244 /* ReyAutoDisconnAlert.m */; };
+		F13951311520C44D00AF8244 /* ReyAutoDisconnAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = F139512F1520C44D00AF8244 /* ReyAutoDisconnAlert.m */; };
+		F13A69CD15198162009E2DDF /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = F13A69CB15198162009E2DDF /* Reachability.h */; };
+		F13A69CE15198162009E2DDF /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = F13A69CB15198162009E2DDF /* Reachability.h */; };
+		F13A69CF15198162009E2DDF /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = F13A69CC15198162009E2DDF /* Reachability.m */; };
+		F13A69D015198162009E2DDF /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = F13A69CC15198162009E2DDF /* Reachability.m */; };
+		F13A69D5151981AA009E2DDF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F13A69D4151981AA009E2DDF /* SystemConfiguration.framework */; };
+		F13A69D6151981B3009E2DDF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F13A69D4151981AA009E2DDF /* SystemConfiguration.framework */; };
+		F13A69DA15198277009E2DDF /* ReyNetWorkStatus.h in Headers */ = {isa = PBXBuildFile; fileRef = F13A69D815198277009E2DDF /* ReyNetWorkStatus.h */; };
+		F13A69DB15198277009E2DDF /* ReyNetWorkStatus.h in Headers */ = {isa = PBXBuildFile; fileRef = F13A69D815198277009E2DDF /* ReyNetWorkStatus.h */; };
+		F13A69DC15198277009E2DDF /* ReyNetWorkStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = F13A69D915198277009E2DDF /* ReyNetWorkStatus.m */; };
+		F13A69DD15198277009E2DDF /* ReyNetWorkStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = F13A69D915198277009E2DDF /* ReyNetWorkStatus.m */; };
+		F144D2F414C3F461000B69EA /* ReyRotationView.h in Headers */ = {isa = PBXBuildFile; fileRef = F144D2F214C3F461000B69EA /* ReyRotationView.h */; };
+		F144D2F514C3F461000B69EA /* ReyRotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = F144D2F314C3F461000B69EA /* ReyRotationView.m */; };
+		F144D31814C3FBDF000B69EA /* ReyHelpView.h in Headers */ = {isa = PBXBuildFile; fileRef = F144D31614C3FBDF000B69EA /* ReyHelpView.h */; };
+		F144D31914C3FBDF000B69EA /* ReyHelpView.m in Sources */ = {isa = PBXBuildFile; fileRef = F144D31714C3FBDF000B69EA /* ReyHelpView.m */; };
+		F14C206A14DBA35E009240C5 /* ReyButton_rotation.h in Headers */ = {isa = PBXBuildFile; fileRef = F14C206814DBA35E009240C5 /* ReyButton_rotation.h */; };
+		F14C206B14DBA35E009240C5 /* ReyButton_rotation.m in Sources */ = {isa = PBXBuildFile; fileRef = F14C206914DBA35E009240C5 /* ReyButton_rotation.m */; };
+		F14FD3F714C416DA0048BF61 /* ReyPullView_multiMoveBtn.h in Headers */ = {isa = PBXBuildFile; fileRef = F14FD3F514C416DA0048BF61 /* ReyPullView_multiMoveBtn.h */; };
+		F14FD3F814C416DA0048BF61 /* ReyPullView_multiMoveBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = F14FD3F614C416DA0048BF61 /* ReyPullView_multiMoveBtn.m */; };
+		F1506D8514E0EDC00071FB73 /* ReySteeringWheel.h in Headers */ = {isa = PBXBuildFile; fileRef = F1506D8314E0EDC00071FB73 /* ReySteeringWheel.h */; };
+		F1506D8614E0EDC00071FB73 /* ReySteeringWheel.m in Sources */ = {isa = PBXBuildFile; fileRef = F1506D8414E0EDC00071FB73 /* ReySteeringWheel.m */; };
+		F154900915D10D5F00400EAD /* MD5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F154900715D10D5F00400EAD /* MD5.cpp */; };
+		F154900A15D10D5F00400EAD /* MD5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F154900715D10D5F00400EAD /* MD5.cpp */; };
+		F154900B15D10D5F00400EAD /* MD5.h in Headers */ = {isa = PBXBuildFile; fileRef = F154900815D10D5F00400EAD /* MD5.h */; };
+		F154900C15D10D5F00400EAD /* MD5.h in Headers */ = {isa = PBXBuildFile; fileRef = F154900815D10D5F00400EAD /* MD5.h */; };
+		F154B918165DF949005FD947 /* ReyFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = F154B916165DF949005FD947 /* ReyFilter.h */; };
+		F154B919165DF949005FD947 /* ReyFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = F154B916165DF949005FD947 /* ReyFilter.h */; };
+		F154B91A165DF949005FD947 /* ReyFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = F154B917165DF949005FD947 /* ReyFilter.m */; };
+		F154B91B165DF949005FD947 /* ReyFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = F154B917165DF949005FD947 /* ReyFilter.m */; };
+		F154B91F165DFE22005FD947 /* ReyFilter_smooth.h in Headers */ = {isa = PBXBuildFile; fileRef = F154B91D165DFE22005FD947 /* ReyFilter_smooth.h */; };
+		F154B920165DFE22005FD947 /* ReyFilter_smooth.h in Headers */ = {isa = PBXBuildFile; fileRef = F154B91D165DFE22005FD947 /* ReyFilter_smooth.h */; };
+		F154B921165DFE22005FD947 /* ReyFilter_smooth.m in Sources */ = {isa = PBXBuildFile; fileRef = F154B91E165DFE22005FD947 /* ReyFilter_smooth.m */; };
+		F154B922165DFE22005FD947 /* ReyFilter_smooth.m in Sources */ = {isa = PBXBuildFile; fileRef = F154B91E165DFE22005FD947 /* ReyFilter_smooth.m */; };
+		F154B925165DFEC9005FD947 /* ReyARBG.h in Headers */ = {isa = PBXBuildFile; fileRef = F154B923165DFEC9005FD947 /* ReyARBG.h */; };
+		F154B926165DFEC9005FD947 /* ReyARBG.h in Headers */ = {isa = PBXBuildFile; fileRef = F154B923165DFEC9005FD947 /* ReyARBG.h */; };
+		F154B92D165E036E005FD947 /* ReyARBG.m in Sources */ = {isa = PBXBuildFile; fileRef = F154B92A165E036E005FD947 /* ReyARBG.m */; };
+		F154B92E165E036E005FD947 /* ReyARBG.m in Sources */ = {isa = PBXBuildFile; fileRef = F154B92A165E036E005FD947 /* ReyARBG.m */; };
+		F154B935165F0AF3005FD947 /* ReyFilter_rainbow.h in Headers */ = {isa = PBXBuildFile; fileRef = F154B933165F0AF3005FD947 /* ReyFilter_rainbow.h */; };
+		F154B936165F0AF3005FD947 /* ReyFilter_rainbow.h in Headers */ = {isa = PBXBuildFile; fileRef = F154B933165F0AF3005FD947 /* ReyFilter_rainbow.h */; };
+		F154B937165F0AF3005FD947 /* ReyFilter_rainbow.m in Sources */ = {isa = PBXBuildFile; fileRef = F154B934165F0AF3005FD947 /* ReyFilter_rainbow.m */; };
+		F154B938165F0AF3005FD947 /* ReyFilter_rainbow.m in Sources */ = {isa = PBXBuildFile; fileRef = F154B934165F0AF3005FD947 /* ReyFilter_rainbow.m */; };
+		F154B93F165F413D005FD947 /* ReyFilter_sharpen.h in Headers */ = {isa = PBXBuildFile; fileRef = F154B93D165F413D005FD947 /* ReyFilter_sharpen.h */; };
+		F154B940165F413D005FD947 /* ReyFilter_sharpen.h in Headers */ = {isa = PBXBuildFile; fileRef = F154B93D165F413D005FD947 /* ReyFilter_sharpen.h */; };
+		F154B941165F413D005FD947 /* ReyFilter_sharpen.m in Sources */ = {isa = PBXBuildFile; fileRef = F154B93E165F413D005FD947 /* ReyFilter_sharpen.m */; };
+		F154B942165F413D005FD947 /* ReyFilter_sharpen.m in Sources */ = {isa = PBXBuildFile; fileRef = F154B93E165F413D005FD947 /* ReyFilter_sharpen.m */; };
+		F155171515F98FCA007E6456 /* AzDG.h in Headers */ = {isa = PBXBuildFile; fileRef = F155171315F98FCA007E6456 /* AzDG.h */; };
+		F155171615F98FCA007E6456 /* AzDG.h in Headers */ = {isa = PBXBuildFile; fileRef = F155171315F98FCA007E6456 /* AzDG.h */; };
+		F155171715F98FCA007E6456 /* AzDG.m in Sources */ = {isa = PBXBuildFile; fileRef = F155171415F98FCA007E6456 /* AzDG.m */; };
+		F155171815F98FCA007E6456 /* AzDG.m in Sources */ = {isa = PBXBuildFile; fileRef = F155171415F98FCA007E6456 /* AzDG.m */; };
+		F155172315F99420007E6456 /* GTMBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = F155172015F99420007E6456 /* GTMBase64.h */; };
+		F155172415F99420007E6456 /* GTMBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = F155172015F99420007E6456 /* GTMBase64.h */; };
+		F155172515F99420007E6456 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = F155172115F99420007E6456 /* GTMBase64.m */; };
+		F155172615F99420007E6456 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = F155172115F99420007E6456 /* GTMBase64.m */; };
+		F155172715F99420007E6456 /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = F155172215F99420007E6456 /* GTMDefines.h */; };
+		F155172815F99420007E6456 /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = F155172215F99420007E6456 /* GTMDefines.h */; };
+		F159E8201498A8DA00F8C5B3 /* ReyXMLParser_keys.h in Headers */ = {isa = PBXBuildFile; fileRef = F159E81E1498A8DA00F8C5B3 /* ReyXMLParser_keys.h */; };
+		F159E8211498A8DA00F8C5B3 /* ReyXMLParser_keys.m in Sources */ = {isa = PBXBuildFile; fileRef = F159E81F1498A8DA00F8C5B3 /* ReyXMLParser_keys.m */; };
+		F15B76981495CD93004425EE /* ReyDownload.h in Headers */ = {isa = PBXBuildFile; fileRef = F15B76961495CD93004425EE /* ReyDownload.h */; };
+		F15B76991495CD93004425EE /* ReyDownload.m in Sources */ = {isa = PBXBuildFile; fileRef = F15B76971495CD93004425EE /* ReyDownload.m */; };
+		F15C128B14D7EA3400677ED5 /* ReyPullView_customMoveBtn.h in Headers */ = {isa = PBXBuildFile; fileRef = F15C128914D7EA3400677ED5 /* ReyPullView_customMoveBtn.h */; };
+		F15C128C14D7EA3400677ED5 /* ReyPullView_customMoveBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = F15C128A14D7EA3400677ED5 /* ReyPullView_customMoveBtn.m */; };
+		F160099315DFA42F00C193D9 /* ReyBar.h in Headers */ = {isa = PBXBuildFile; fileRef = F160099115DFA42F00C193D9 /* ReyBar.h */; };
+		F160099415DFA42F00C193D9 /* ReyBar.h in Headers */ = {isa = PBXBuildFile; fileRef = F160099115DFA42F00C193D9 /* ReyBar.h */; };
+		F160099515DFA42F00C193D9 /* ReyBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F160099215DFA42F00C193D9 /* ReyBar.m */; };
+		F160099615DFA42F00C193D9 /* ReyBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F160099215DFA42F00C193D9 /* ReyBar.m */; };
+		F165F123147DF4E100EA1F00 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F165F122147DF4E100EA1F00 /* Foundation.framework */; };
+		F165F131147DF51100EA1F00 /* ReyLabel_shadow.h in Headers */ = {isa = PBXBuildFile; fileRef = F165F12D147DF51100EA1F00 /* ReyLabel_shadow.h */; };
+		F165F132147DF51100EA1F00 /* ReyLabel_shadow.m in Sources */ = {isa = PBXBuildFile; fileRef = F165F12E147DF51100EA1F00 /* ReyLabel_shadow.m */; };
+		F165F133147DF51100EA1F00 /* ReyLabel_shadowExtra.h in Headers */ = {isa = PBXBuildFile; fileRef = F165F12F147DF51100EA1F00 /* ReyLabel_shadowExtra.h */; };
+		F165F134147DF51100EA1F00 /* ReyLabel_shadowExtra.m in Sources */ = {isa = PBXBuildFile; fileRef = F165F130147DF51100EA1F00 /* ReyLabel_shadowExtra.m */; };
+		F165F136147DF53B00EA1F00 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F165F135147DF53B00EA1F00 /* UIKit.framework */; };
+		F165F138147DF55200EA1F00 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F165F137147DF55200EA1F00 /* CoreGraphics.framework */; };
+		F1670D9A1592B991001DC6A5 /* ReyLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = F1670D961592B991001DC6A5 /* ReyLocation.h */; };
+		F1670D9B1592B991001DC6A5 /* ReyLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = F1670D961592B991001DC6A5 /* ReyLocation.h */; };
+		F1670D9C1592B991001DC6A5 /* ReyLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = F1670D971592B991001DC6A5 /* ReyLocation.m */; };
+		F1670D9D1592B991001DC6A5 /* ReyLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = F1670D971592B991001DC6A5 /* ReyLocation.m */; };
+		F1670D9E1592B991001DC6A5 /* ReyMapView.h in Headers */ = {isa = PBXBuildFile; fileRef = F1670D981592B991001DC6A5 /* ReyMapView.h */; };
+		F1670D9F1592B991001DC6A5 /* ReyMapView.h in Headers */ = {isa = PBXBuildFile; fileRef = F1670D981592B991001DC6A5 /* ReyMapView.h */; };
+		F1670DA01592B991001DC6A5 /* ReyMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1670D991592B991001DC6A5 /* ReyMapView.m */; };
+		F1670DA11592B991001DC6A5 /* ReyMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1670D991592B991001DC6A5 /* ReyMapView.m */; };
+		F1670DA61592B9A8001DC6A5 /* I_ReyAnnotationView.h in Headers */ = {isa = PBXBuildFile; fileRef = F1670DA31592B9A8001DC6A5 /* I_ReyAnnotationView.h */; };
+		F1670DA71592B9A8001DC6A5 /* I_ReyAnnotationView.h in Headers */ = {isa = PBXBuildFile; fileRef = F1670DA31592B9A8001DC6A5 /* I_ReyAnnotationView.h */; };
+		F1670DA81592B9A8001DC6A5 /* ReyAnnotationView.h in Headers */ = {isa = PBXBuildFile; fileRef = F1670DA41592B9A8001DC6A5 /* ReyAnnotationView.h */; };
+		F1670DA91592B9A8001DC6A5 /* ReyAnnotationView.h in Headers */ = {isa = PBXBuildFile; fileRef = F1670DA41592B9A8001DC6A5 /* ReyAnnotationView.h */; };
+		F1670DAA1592B9A8001DC6A5 /* ReyAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1670DA51592B9A8001DC6A5 /* ReyAnnotationView.m */; };
+		F1670DAB1592B9A8001DC6A5 /* ReyAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1670DA51592B9A8001DC6A5 /* ReyAnnotationView.m */; };
+		F16DB58814C185560059C279 /* ReyCustomAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = F16DB58614C185560059C279 /* ReyCustomAlert.h */; };
+		F16DB58914C185560059C279 /* ReyCustomAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = F16DB58714C185560059C279 /* ReyCustomAlert.m */; };
+		F17D871716704504007B7F4F /* IPAdress.h in Headers */ = {isa = PBXBuildFile; fileRef = F17D871616704504007B7F4F /* IPAdress.h */; };
+		F17D871816704504007B7F4F /* IPAdress.h in Headers */ = {isa = PBXBuildFile; fileRef = F17D871616704504007B7F4F /* IPAdress.h */; };
+		F17D871B16704514007B7F4F /* ReyIPAddress.h in Headers */ = {isa = PBXBuildFile; fileRef = F17D871916704514007B7F4F /* ReyIPAddress.h */; };
+		F17D871C16704514007B7F4F /* ReyIPAddress.h in Headers */ = {isa = PBXBuildFile; fileRef = F17D871916704514007B7F4F /* ReyIPAddress.h */; };
+		F17D871D16704514007B7F4F /* ReyIPAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = F17D871A16704514007B7F4F /* ReyIPAddress.m */; };
+		F17D871E16704514007B7F4F /* ReyIPAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = F17D871A16704514007B7F4F /* ReyIPAddress.m */; };
+		F182BBEA152D439B00C936ED /* libzbar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F182BBE9152D439B00C936ED /* libzbar.a */; };
+		F182BBEC152D43AD00C936ED /* i386libzbar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F182BBEB152D43AD00C936ED /* i386libzbar.a */; };
+		F1899548149C65D7002C5A0A /* ReyXMLParser_GetGid.h in Headers */ = {isa = PBXBuildFile; fileRef = F1899546149C65D7002C5A0A /* ReyXMLParser_GetGid.h */; };
+		F1899549149C65D7002C5A0A /* ReyXMLParser_GetGid.m in Sources */ = {isa = PBXBuildFile; fileRef = F1899547149C65D7002C5A0A /* ReyXMLParser_GetGid.m */; };
+		F18B3B2314F258030041865F /* Decoder.h in Headers */ = {isa = PBXBuildFile; fileRef = F18B3B0A14F258020041865F /* Decoder.h */; };
+		F18B3B2414F258030041865F /* Exception.h in Headers */ = {isa = PBXBuildFile; fileRef = F18B3B0B14F258020041865F /* Exception.h */; };
+		F18B3B2514F258030041865F /* Image.h in Headers */ = {isa = PBXBuildFile; fileRef = F18B3B0C14F258020041865F /* Image.h */; };
+		F18B3B2614F258030041865F /* ImageScanner.h in Headers */ = {isa = PBXBuildFile; fileRef = F18B3B0D14F258020041865F /* ImageScanner.h */; };
+		F18B3B2714F258030041865F /* Processor.h in Headers */ = {isa = PBXBuildFile; fileRef = F18B3B0E14F258020041865F /* Processor.h */; };
+		F18B3B2814F258030041865F /* Scanner.h in Headers */ = {isa = PBXBuildFile; fileRef = F18B3B0F14F258020041865F /* Scanner.h */; };
+		F18B3B2914F258030041865F /* Symbol.h in Headers */ = {isa = PBXBuildFile; fileRef = F18B3B1014F258020041865F /* Symbol.h */; };
+		F18B3B2A14F258030041865F /* Video.h in Headers */ = {isa = PBXBuildFile; fileRef = F18B3B1114F258020041865F /* Video.h */; };
+		F18B3B2B14F258030041865F /* Window.h in Headers */ = {isa = PBXBuildFile; fileRef = F18B3B1214F258020041865F /* Window.h */; };
+		F18B3B2C14F258030041865F /* zbar.h in Headers */ = {isa = PBXBuildFile; fileRef = F18B3B1314F258020041865F /* zbar.h */; };
+		F18B3B2D14F258030041865F /* ZBarCameraSimulator.h in Headers */ = {isa = PBXBuildFile; fileRef = F18B3B1414F258020041865F /* ZBarCameraSimulator.h */; };
+		F18B3B2E14F258030041865F /* ZBarCaptureReader.h in Headers */ = {isa = PBXBuildFile; fileRef = F18B3B1514F258020041865F /* ZBarCaptureReader.h */; };
+		F18B3B2F14F258030041865F /* ZBarHelpController.h in Headers */ = {isa = PBXBuildFile; fileRef = F18B3B1614F258020041865F /* ZBarHelpController.h */; };
+		F18B3B3014F258030041865F /* ZBarImage.h in Headers */ = {isa = PBXBuildFile; fileRef = F18B3B1714F258020041865F /* ZBarImage.h */; };
+		F18B3B3114F258030041865F /* ZBarImageScanner.h in Headers */ = {isa = PBXBuildFile; fileRef = F18B3B1814F258020041865F /* ZBarImageScanner.h */; };
+		F18B3B3214F258030041865F /* ZBarReaderController.h in Headers */ = {isa = PBXBuildFile; fileRef = F18B3B1914F258020041865F /* ZBarReaderController.h */; };
+		F18B3B3314F258030041865F /* ZBarReaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = F18B3B1A14F258020041865F /* ZBarReaderView.h */; };
+		F18B3B3414F258030041865F /* ZBarReaderViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F18B3B1B14F258020041865F /* ZBarReaderViewController.h */; };
+		F18B3B3514F258030041865F /* ZBarSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = F18B3B1C14F258020041865F /* ZBarSDK.h */; };
+		F18B3B3614F258030041865F /* ZBarSymbol.h in Headers */ = {isa = PBXBuildFile; fileRef = F18B3B1D14F258020041865F /* ZBarSymbol.h */; };
+		F18B3B7D14F25CC50041865F /* ReyLabel_shadow.m in Sources */ = {isa = PBXBuildFile; fileRef = F165F12E147DF51100EA1F00 /* ReyLabel_shadow.m */; };
+		F18B3B7E14F25CC50041865F /* ReyLabel_shadowExtra.m in Sources */ = {isa = PBXBuildFile; fileRef = F165F130147DF51100EA1F00 /* ReyLabel_shadowExtra.m */; };
+		F18B3B7F14F25CC50041865F /* ReyDownload.m in Sources */ = {isa = PBXBuildFile; fileRef = F15B76971495CD93004425EE /* ReyDownload.m */; };
+		F18B3B8014F25CC50041865F /* ReyDownload_Post.m in Sources */ = {isa = PBXBuildFile; fileRef = F1D32C4414960E0300C0D512 /* ReyDownload_Post.m */; };
+		F18B3B8114F25CC50041865F /* ReyXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = F1D32C6B1496346E00C0D512 /* ReyXMLParser.m */; };
+		F18B3B8214F25CC50041865F /* ReyXMLParser_GODLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = F1D32C741496380300C0D512 /* ReyXMLParser_GODLogin.m */; };
+		F18B3B8314F25CC50041865F /* ReyError.m in Sources */ = {isa = PBXBuildFile; fileRef = F1113FB5149775ED005E10C3 /* ReyError.m */; };
+		F18B3B8414F25CC50041865F /* ReyLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = F1300F7914979B87001AA8E3 /* ReyLoading.m */; };
+		F18B3B8514F25CC50041865F /* ReyXMLParser_autoUpdate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F5D0551498334700D55A6C /* ReyXMLParser_autoUpdate.m */; };
+		F18B3B8614F25CC50041865F /* ReyXMLParser_keys.m in Sources */ = {isa = PBXBuildFile; fileRef = F159E81F1498A8DA00F8C5B3 /* ReyXMLParser_keys.m */; };
+		F18B3B8714F25CC50041865F /* ReyXMLParser_GetGid.m in Sources */ = {isa = PBXBuildFile; fileRef = F1899547149C65D7002C5A0A /* ReyXMLParser_GetGid.m */; };
+		F18B3B8814F25CC50041865F /* IrregularShapedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F123A5CA14A424E50004D927 /* IrregularShapedButton.m */; };
+		F18B3B8914F25CC50041865F /* UIImage-Alpha.m in Sources */ = {isa = PBXBuildFile; fileRef = F123A5CC14A424E50004D927 /* UIImage-Alpha.m */; };
+		F18B3B8A14F25CC50041865F /* ReyCoreMotion.m in Sources */ = {isa = PBXBuildFile; fileRef = F1DDB91A14A4B05D00529BD6 /* ReyCoreMotion.m */; };
+		F18B3B8B14F25CC50041865F /* ReyRockerEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B87D1314B555AD0072F6A9 /* ReyRockerEvent.m */; };
+		F18B3B8C14F25CC50041865F /* ReyPopupView_circle.m in Sources */ = {isa = PBXBuildFile; fileRef = F18B774814BEDC02006390F9 /* ReyPopupView_circle.m */; };
+		F18B3B8D14F25CC50041865F /* ReyPopupView_circleItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F18B774A14BEDC02006390F9 /* ReyPopupView_circleItem.m */; };
+		F18B3B8E14F25CC50041865F /* ReyCustomAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = F16DB58714C185560059C279 /* ReyCustomAlert.m */; };
+		F18B3B8F14F25CC50041865F /* ReyPullView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E98A9C14C31C2E00EFF833 /* ReyPullView.m */; };
+		F18B3B9014F25CC50041865F /* ReyPullView_moveBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E98A9E14C31C2E00EFF833 /* ReyPullView_moveBtn.m */; };
+		F18B3B9114F25CC50041865F /* ReyAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E98AA514C31C5300EFF833 /* ReyAnimation.m */; };
+		F18B3B9214F25CC50041865F /* ReyRotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = F144D2F314C3F461000B69EA /* ReyRotationView.m */; };
+		F18B3B9314F25CC50041865F /* ReyHelpView.m in Sources */ = {isa = PBXBuildFile; fileRef = F144D31714C3FBDF000B69EA /* ReyHelpView.m */; };
+		F18B3B9414F25CC50041865F /* ReyPullView_multiMoveBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = F14FD3F614C416DA0048BF61 /* ReyPullView_multiMoveBtn.m */; };
+		F18B3B9514F25CC50041865F /* ReyAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B89C0414C45F8400D9BF7C /* ReyAlert.m */; };
+		F18B3B9614F25CC50041865F /* ReyRockerEvent_4.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E8078514C520DC00F512E3 /* ReyRockerEvent_4.m */; };
+		F18B3B9714F25CC50041865F /* ReyPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E807FB14C571A900F512E3 /* ReyPageControl.m */; };
+		F18B3B9814F25CC50041865F /* ReyPullView_customMoveBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = F15C128A14D7EA3400677ED5 /* ReyPullView_customMoveBtn.m */; };
+		F18B3B9914F25CC50041865F /* ReyButton_rotation.m in Sources */ = {isa = PBXBuildFile; fileRef = F14C206914DBA35E009240C5 /* ReyButton_rotation.m */; };
+		F18B3B9A14F25CC50041865F /* ReyInterchangeView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1D691D014DD33D7007B9C78 /* ReyInterchangeView.m */; };
+		F18B3B9B14F25CC50041865F /* ReyInterchangeView_moveItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F1D691D214DD33D7007B9C78 /* ReyInterchangeView_moveItem.m */; };
+		F18B3B9C14F25CC50041865F /* ReyCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FC121514DE733B003A1032 /* ReyCommon.m */; };
+		F18B3B9D14F25CC50041865F /* ReySlipView.m in Sources */ = {isa = PBXBuildFile; fileRef = F10192D414DFA1CD001716F2 /* ReySlipView.m */; };
+		F18B3B9E14F25CC50041865F /* ReySteeringWheel.m in Sources */ = {isa = PBXBuildFile; fileRef = F1506D8414E0EDC00071FB73 /* ReySteeringWheel.m */; };
+		F18B3B9F14F25CC50041865F /* ReyImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1220E8414EB4EC70094EE75 /* ReyImageView.m */; };
+		F18B3BA114F25CC50041865F /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1FC121814DE744A003A1032 /* AudioToolbox.framework */; };
+		F18B3BA214F25CC50041865F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F165F137147DF55200EA1F00 /* CoreGraphics.framework */; };
+		F18B3BA314F25CC50041865F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F165F135147DF53B00EA1F00 /* UIKit.framework */; };
+		F18B3BA414F25CC50041865F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F165F122147DF4E100EA1F00 /* Foundation.framework */; };
+		F18B3BA714F25CC50041865F /* ReyLabel_shadow.h in Headers */ = {isa = PBXBuildFile; fileRef = F165F12D147DF51100EA1F00 /* ReyLabel_shadow.h */; };
+		F18B3BA814F25CC50041865F /* ReyLabel_shadowExtra.h in Headers */ = {isa = PBXBuildFile; fileRef = F165F12F147DF51100EA1F00 /* ReyLabel_shadowExtra.h */; };
+		F18B3BA914F25CC50041865F /* ReyDownload.h in Headers */ = {isa = PBXBuildFile; fileRef = F15B76961495CD93004425EE /* ReyDownload.h */; };
+		F18B3BAA14F25CC50041865F /* ReyDownload_Post.h in Headers */ = {isa = PBXBuildFile; fileRef = F1D32C4314960E0300C0D512 /* ReyDownload_Post.h */; };
+		F18B3BAB14F25CC50041865F /* ReyXMLParser.h in Headers */ = {isa = PBXBuildFile; fileRef = F1D32C6A1496346E00C0D512 /* ReyXMLParser.h */; };
+		F18B3BAC14F25CC50041865F /* ReyXMLParser_GODLogin.h in Headers */ = {isa = PBXBuildFile; fileRef = F1D32C731496380300C0D512 /* ReyXMLParser_GODLogin.h */; };
+		F18B3BAD14F25CC50041865F /* ReyError.h in Headers */ = {isa = PBXBuildFile; fileRef = F1113FB4149775ED005E10C3 /* ReyError.h */; };
+		F18B3BAE14F25CC50041865F /* ReyLoading.h in Headers */ = {isa = PBXBuildFile; fileRef = F1300F7814979B87001AA8E3 /* ReyLoading.h */; };
+		F18B3BAF14F25CC50041865F /* ReyXMLParser_autoUpdate.h in Headers */ = {isa = PBXBuildFile; fileRef = F1F5D0541498334700D55A6C /* ReyXMLParser_autoUpdate.h */; };
+		F18B3BB014F25CC50041865F /* ReyXMLParser_keys.h in Headers */ = {isa = PBXBuildFile; fileRef = F159E81E1498A8DA00F8C5B3 /* ReyXMLParser_keys.h */; };
+		F18B3BB114F25CC50041865F /* ReyXMLParser_GetGid.h in Headers */ = {isa = PBXBuildFile; fileRef = F1899546149C65D7002C5A0A /* ReyXMLParser_GetGid.h */; };
+		F18B3BB214F25CC50041865F /* IrregularShapedButton.h in Headers */ = {isa = PBXBuildFile; fileRef = F123A5C914A424E50004D927 /* IrregularShapedButton.h */; };
+		F18B3BB314F25CC50041865F /* UIImage-Alpha.h in Headers */ = {isa = PBXBuildFile; fileRef = F123A5CB14A424E50004D927 /* UIImage-Alpha.h */; };
+		F18B3BB414F25CC50041865F /* ReyCoreMotion.h in Headers */ = {isa = PBXBuildFile; fileRef = F1DDB91914A4B05D00529BD6 /* ReyCoreMotion.h */; };
+		F18B3BB514F25CC50041865F /* ReyRockerEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = F1B87D1214B555AD0072F6A9 /* ReyRockerEvent.h */; };
+		F18B3BB614F25CC50041865F /* ReyPopupView_circle.h in Headers */ = {isa = PBXBuildFile; fileRef = F18B774714BEDC02006390F9 /* ReyPopupView_circle.h */; };
+		F18B3BB714F25CC50041865F /* ReyPopupView_circleItem.h in Headers */ = {isa = PBXBuildFile; fileRef = F18B774914BEDC02006390F9 /* ReyPopupView_circleItem.h */; };
+		F18B3BB814F25CC50041865F /* ReyCustomAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = F16DB58614C185560059C279 /* ReyCustomAlert.h */; };
+		F18B3BB914F25CC50041865F /* ReyPullView.h in Headers */ = {isa = PBXBuildFile; fileRef = F1E98A9B14C31C2E00EFF833 /* ReyPullView.h */; };
+		F18B3BBA14F25CC50041865F /* ReyPullView_moveBtn.h in Headers */ = {isa = PBXBuildFile; fileRef = F1E98A9D14C31C2E00EFF833 /* ReyPullView_moveBtn.h */; };
+		F18B3BBB14F25CC50041865F /* ReyAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = F1E98AA414C31C5300EFF833 /* ReyAnimation.h */; };
+		F18B3BBC14F25CC50041865F /* ReyRotationView.h in Headers */ = {isa = PBXBuildFile; fileRef = F144D2F214C3F461000B69EA /* ReyRotationView.h */; };
+		F18B3BBD14F25CC50041865F /* ReyHelpView.h in Headers */ = {isa = PBXBuildFile; fileRef = F144D31614C3FBDF000B69EA /* ReyHelpView.h */; };
+		F18B3BBE14F25CC50041865F /* ReyPullView_multiMoveBtn.h in Headers */ = {isa = PBXBuildFile; fileRef = F14FD3F514C416DA0048BF61 /* ReyPullView_multiMoveBtn.h */; };
+		F18B3BBF14F25CC50041865F /* ReyAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = F1B89C0314C45F8400D9BF7C /* ReyAlert.h */; };
+		F18B3BC014F25CC50041865F /* ReyRockerEvent_4.h in Headers */ = {isa = PBXBuildFile; fileRef = F1E8078414C520DC00F512E3 /* ReyRockerEvent_4.h */; };
+		F18B3BC114F25CC50041865F /* ReyPageControl.h in Headers */ = {isa = PBXBuildFile; fileRef = F1E807FA14C571A900F512E3 /* ReyPageControl.h */; };
+		F18B3BC214F25CC50041865F /* ReyPullView_customMoveBtn.h in Headers */ = {isa = PBXBuildFile; fileRef = F15C128914D7EA3400677ED5 /* ReyPullView_customMoveBtn.h */; };
+		F18B3BC314F25CC50041865F /* ReyButton_rotation.h in Headers */ = {isa = PBXBuildFile; fileRef = F14C206814DBA35E009240C5 /* ReyButton_rotation.h */; };
+		F18B3BC414F25CC50041865F /* ReyInterchangeView.h in Headers */ = {isa = PBXBuildFile; fileRef = F1D691CF14DD33D7007B9C78 /* ReyInterchangeView.h */; };
+		F18B3BC514F25CC50041865F /* ReyInterchangeView_moveItem.h in Headers */ = {isa = PBXBuildFile; fileRef = F1D691D114DD33D7007B9C78 /* ReyInterchangeView_moveItem.h */; };
+		F18B3BC614F25CC50041865F /* ReyCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = F1FC121414DE733B003A1032 /* ReyCommon.h */; };
+		F18B3BC714F25CC50041865F /* ReySlipView.h in Headers */ = {isa = PBXBuildFile; fileRef = F10192D314DFA1CD001716F2 /* ReySlipView.h */; };
+		F18B3BC814F25CC50041865F /* ReySteeringWheel.h in Headers */ = {isa = PBXBuildFile; fileRef = F1506D8314E0EDC00071FB73 /* ReySteeringWheel.h */; };
+		F18B3BC914F25CC50041865F /* ReyImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = F1220E8314EB4EC70094EE75 /* ReyImageView.h */; };
+		F18B3BCA14F25CC50041865F /* Decoder.h in Headers */ = {isa = PBXBuildFile; fileRef = F18B3B0A14F258020041865F /* Decoder.h */; };
+		F18B3BCB14F25CC50041865F /* Exception.h in Headers */ = {isa = PBXBuildFile; fileRef = F18B3B0B14F258020041865F /* Exception.h */; };
+		F18B3BCC14F25CC50041865F /* Image.h in Headers */ = {isa = PBXBuildFile; fileRef = F18B3B0C14F258020041865F /* Image.h */; };
+		F18B3BCD14F25CC50041865F /* ImageScanner.h in Headers */ = {isa = PBXBuildFile; fileRef = F18B3B0D14F258020041865F /* ImageScanner.h */; };
+		F18B3BCE14F25CC50041865F /* Processor.h in Headers */ = {isa = PBXBuildFile; fileRef = F18B3B0E14F258020041865F /* Processor.h */; };
+		F18B3BCF14F25CC50041865F /* Scanner.h in Headers */ = {isa = PBXBuildFile; fileRef = F18B3B0F14F258020041865F /* Scanner.h */; };
+		F18B3BD014F25CC50041865F /* Symbol.h in Headers */ = {isa = PBXBuildFile; fileRef = F18B3B1014F258020041865F /* Symbol.h */; };
+		F18B3BD114F25CC50041865F /* Video.h in Headers */ = {isa = PBXBuildFile; fileRef = F18B3B1114F258020041865F /* Video.h */; };
+		F18B3BD214F25CC50041865F /* Window.h in Headers */ = {isa = PBXBuildFile; fileRef = F18B3B1214F258020041865F /* Window.h */; };
+		F18B3BD314F25CC50041865F /* zbar.h in Headers */ = {isa = PBXBuildFile; fileRef = F18B3B1314F258020041865F /* zbar.h */; };
+		F18B3BD414F25CC50041865F /* ZBarCameraSimulator.h in Headers */ = {isa = PBXBuildFile; fileRef = F18B3B1414F258020041865F /* ZBarCameraSimulator.h */; };
+		F18B3BD514F25CC50041865F /* ZBarCaptureReader.h in Headers */ = {isa = PBXBuildFile; fileRef = F18B3B1514F258020041865F /* ZBarCaptureReader.h */; };
+		F18B3BD614F25CC50041865F /* ZBarHelpController.h in Headers */ = {isa = PBXBuildFile; fileRef = F18B3B1614F258020041865F /* ZBarHelpController.h */; };
+		F18B3BD714F25CC50041865F /* ZBarImage.h in Headers */ = {isa = PBXBuildFile; fileRef = F18B3B1714F258020041865F /* ZBarImage.h */; };
+		F18B3BD814F25CC50041865F /* ZBarImageScanner.h in Headers */ = {isa = PBXBuildFile; fileRef = F18B3B1814F258020041865F /* ZBarImageScanner.h */; };
+		F18B3BD914F25CC50041865F /* ZBarReaderController.h in Headers */ = {isa = PBXBuildFile; fileRef = F18B3B1914F258020041865F /* ZBarReaderController.h */; };
+		F18B3BDA14F25CC50041865F /* ZBarReaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = F18B3B1A14F258020041865F /* ZBarReaderView.h */; };
+		F18B3BDB14F25CC50041865F /* ZBarReaderViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F18B3B1B14F258020041865F /* ZBarReaderViewController.h */; };
+		F18B3BDC14F25CC50041865F /* ZBarSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = F18B3B1C14F258020041865F /* ZBarSDK.h */; };
+		F18B3BDD14F25CC50041865F /* ZBarSymbol.h in Headers */ = {isa = PBXBuildFile; fileRef = F18B3B1D14F258020041865F /* ZBarSymbol.h */; };
+		F18B3BE514F260620041865F /* ReyZBar.h in Headers */ = {isa = PBXBuildFile; fileRef = F18B3BE314F260610041865F /* ReyZBar.h */; };
+		F18B3BE614F260620041865F /* ReyZBar.h in Headers */ = {isa = PBXBuildFile; fileRef = F18B3BE314F260610041865F /* ReyZBar.h */; };
+		F18B3BE714F260620041865F /* ReyZBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F18B3BE414F260610041865F /* ReyZBar.m */; };
+		F18B3BE814F260620041865F /* ReyZBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F18B3BE414F260610041865F /* ReyZBar.m */; };
+		F18B3C1614F2676B0041865F /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F18B3C1214F2676B0041865F /* libiconv.dylib */; };
+		F18B3C1814F2676B0041865F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F18B3C1314F2676B0041865F /* AVFoundation.framework */; };
+		F18B3C1A14F2676B0041865F /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F18B3C1414F2676B0041865F /* CoreVideo.framework */; };
+		F18B3C1C14F2676B0041865F /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F18B3C1514F2676B0041865F /* CoreMedia.framework */; };
+		F18B3C1E14F2679D0041865F /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F18B3C1414F2676B0041865F /* CoreVideo.framework */; };
+		F18B3C1F14F267B30041865F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F18B3C1314F2676B0041865F /* AVFoundation.framework */; };
+		F18B3C2014F267BF0041865F /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F18B3C1214F2676B0041865F /* libiconv.dylib */; };
+		F18B3C2114F267C90041865F /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F18B3C1514F2676B0041865F /* CoreMedia.framework */; };
+		F18B774B14BEDC02006390F9 /* ReyPopupView_circle.h in Headers */ = {isa = PBXBuildFile; fileRef = F18B774714BEDC02006390F9 /* ReyPopupView_circle.h */; };
+		F18B774C14BEDC02006390F9 /* ReyPopupView_circle.m in Sources */ = {isa = PBXBuildFile; fileRef = F18B774814BEDC02006390F9 /* ReyPopupView_circle.m */; };
+		F18B774D14BEDC02006390F9 /* ReyPopupView_circleItem.h in Headers */ = {isa = PBXBuildFile; fileRef = F18B774914BEDC02006390F9 /* ReyPopupView_circleItem.h */; };
+		F18B774E14BEDC02006390F9 /* ReyPopupView_circleItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F18B774A14BEDC02006390F9 /* ReyPopupView_circleItem.m */; };
+		F190C5EF15EF8CAF0066DF6E /* ReyShareEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = F190C5ED15EF8CAF0066DF6E /* ReyShareEngine.h */; };
+		F190C5F015EF8CAF0066DF6E /* ReyShareEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = F190C5ED15EF8CAF0066DF6E /* ReyShareEngine.h */; };
+		F190C5F115EF8CAF0066DF6E /* ReyShareEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = F190C5EE15EF8CAF0066DF6E /* ReyShareEngine.m */; };
+		F190C5F215EF8CAF0066DF6E /* ReyShareEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = F190C5EE15EF8CAF0066DF6E /* ReyShareEngine.m */; };
+		F190C5FB15EF8CC30066DF6E /* ReyShareEngine_sina.h in Headers */ = {isa = PBXBuildFile; fileRef = F190C5F315EF8CC30066DF6E /* ReyShareEngine_sina.h */; };
+		F190C5FC15EF8CC30066DF6E /* ReyShareEngine_sina.h in Headers */ = {isa = PBXBuildFile; fileRef = F190C5F315EF8CC30066DF6E /* ReyShareEngine_sina.h */; };
+		F190C5FD15EF8CC30066DF6E /* ReyShareEngine_sina.m in Sources */ = {isa = PBXBuildFile; fileRef = F190C5F415EF8CC30066DF6E /* ReyShareEngine_sina.m */; };
+		F190C5FE15EF8CC30066DF6E /* ReyShareEngine_sina.m in Sources */ = {isa = PBXBuildFile; fileRef = F190C5F415EF8CC30066DF6E /* ReyShareEngine_sina.m */; };
+		F190C5FF15EF8CC30066DF6E /* ReyShareEngine_QQ.h in Headers */ = {isa = PBXBuildFile; fileRef = F190C5F515EF8CC30066DF6E /* ReyShareEngine_QQ.h */; };
+		F190C60015EF8CC30066DF6E /* ReyShareEngine_QQ.h in Headers */ = {isa = PBXBuildFile; fileRef = F190C5F515EF8CC30066DF6E /* ReyShareEngine_QQ.h */; };
+		F190C60115EF8CC30066DF6E /* ReyShareEngine_QQ.m in Sources */ = {isa = PBXBuildFile; fileRef = F190C5F615EF8CC30066DF6E /* ReyShareEngine_QQ.m */; };
+		F190C60215EF8CC30066DF6E /* ReyShareEngine_QQ.m in Sources */ = {isa = PBXBuildFile; fileRef = F190C5F615EF8CC30066DF6E /* ReyShareEngine_QQ.m */; };
+		F190C60315EF8CC30066DF6E /* ReyShareEngine_renren.h in Headers */ = {isa = PBXBuildFile; fileRef = F190C5F715EF8CC30066DF6E /* ReyShareEngine_renren.h */; };
+		F190C60415EF8CC30066DF6E /* ReyShareEngine_renren.h in Headers */ = {isa = PBXBuildFile; fileRef = F190C5F715EF8CC30066DF6E /* ReyShareEngine_renren.h */; };
+		F190C60515EF8CC30066DF6E /* ReyShareEngine_renren.mm in Sources */ = {isa = PBXBuildFile; fileRef = F190C5F815EF8CC30066DF6E /* ReyShareEngine_renren.mm */; };
+		F190C60615EF8CC30066DF6E /* ReyShareEngine_renren.mm in Sources */ = {isa = PBXBuildFile; fileRef = F190C5F815EF8CC30066DF6E /* ReyShareEngine_renren.mm */; };
+		F190C60715EF8CC30066DF6E /* ReyShareEngine_douban.h in Headers */ = {isa = PBXBuildFile; fileRef = F190C5F915EF8CC30066DF6E /* ReyShareEngine_douban.h */; };
+		F190C60815EF8CC30066DF6E /* ReyShareEngine_douban.h in Headers */ = {isa = PBXBuildFile; fileRef = F190C5F915EF8CC30066DF6E /* ReyShareEngine_douban.h */; };
+		F190C60915EF8CC30066DF6E /* ReyShareEngine_douban.m in Sources */ = {isa = PBXBuildFile; fileRef = F190C5FA15EF8CC30066DF6E /* ReyShareEngine_douban.m */; };
+		F190C60A15EF8CC30066DF6E /* ReyShareEngine_douban.m in Sources */ = {isa = PBXBuildFile; fileRef = F190C5FA15EF8CC30066DF6E /* ReyShareEngine_douban.m */; };
+		F190C60E15EF8CF80066DF6E /* ReyShareRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = F190C60C15EF8CF80066DF6E /* ReyShareRequest.h */; };
+		F190C60F15EF8CF80066DF6E /* ReyShareRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = F190C60C15EF8CF80066DF6E /* ReyShareRequest.h */; };
+		F190C61015EF8CF80066DF6E /* ReyShareRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F190C60D15EF8CF80066DF6E /* ReyShareRequest.m */; };
+		F190C61115EF8CF80066DF6E /* ReyShareRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F190C60D15EF8CF80066DF6E /* ReyShareRequest.m */; };
+		F190C61515EF8D180066DF6E /* ReyShareView.h in Headers */ = {isa = PBXBuildFile; fileRef = F190C61315EF8D180066DF6E /* ReyShareView.h */; };
+		F190C61615EF8D180066DF6E /* ReyShareView.h in Headers */ = {isa = PBXBuildFile; fileRef = F190C61315EF8D180066DF6E /* ReyShareView.h */; };
+		F190C61715EF8D180066DF6E /* ReyShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = F190C61415EF8D180066DF6E /* ReyShareView.m */; };
+		F190C61815EF8D180066DF6E /* ReyShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = F190C61415EF8D180066DF6E /* ReyShareView.m */; };
+		F190C61E15EF8D2C0066DF6E /* ReyShareKeys.h in Headers */ = {isa = PBXBuildFile; fileRef = F190C61915EF8D2C0066DF6E /* ReyShareKeys.h */; };
+		F190C61F15EF8D2C0066DF6E /* ReyShareKeys.h in Headers */ = {isa = PBXBuildFile; fileRef = F190C61915EF8D2C0066DF6E /* ReyShareKeys.h */; };
+		F190C62015EF8D2C0066DF6E /* ReyShare.h in Headers */ = {isa = PBXBuildFile; fileRef = F190C61A15EF8D2C0066DF6E /* ReyShare.h */; };
+		F190C62115EF8D2C0066DF6E /* ReyShare.h in Headers */ = {isa = PBXBuildFile; fileRef = F190C61A15EF8D2C0066DF6E /* ReyShare.h */; };
+		F190C62215EF8D2C0066DF6E /* ReyShare.m in Sources */ = {isa = PBXBuildFile; fileRef = F190C61B15EF8D2C0066DF6E /* ReyShare.m */; };
+		F190C62315EF8D2C0066DF6E /* ReyShare.m in Sources */ = {isa = PBXBuildFile; fileRef = F190C61B15EF8D2C0066DF6E /* ReyShare.m */; };
+		F190C62415EF8D2C0066DF6E /* ReyShare_OneKeyStep.h in Headers */ = {isa = PBXBuildFile; fileRef = F190C61C15EF8D2C0066DF6E /* ReyShare_OneKeyStep.h */; };
+		F190C62515EF8D2C0066DF6E /* ReyShare_OneKeyStep.h in Headers */ = {isa = PBXBuildFile; fileRef = F190C61C15EF8D2C0066DF6E /* ReyShare_OneKeyStep.h */; };
+		F190C62615EF8D2C0066DF6E /* ReyShare_OneKeyStep.m in Sources */ = {isa = PBXBuildFile; fileRef = F190C61D15EF8D2C0066DF6E /* ReyShare_OneKeyStep.m */; };
+		F190C62715EF8D2C0066DF6E /* ReyShare_OneKeyStep.m in Sources */ = {isa = PBXBuildFile; fileRef = F190C61D15EF8D2C0066DF6E /* ReyShare_OneKeyStep.m */; };
+		F190C62915EF8D670066DF6E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F190C62815EF8D670066DF6E /* Security.framework */; };
+		F190C62A15EF8D7C0066DF6E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F190C62815EF8D670066DF6E /* Security.framework */; };
+		F1A2455E158EED660010A611 /* ReyRatingView.h in Headers */ = {isa = PBXBuildFile; fileRef = F1A2455C158EED660010A611 /* ReyRatingView.h */; };
+		F1A2455F158EED660010A611 /* ReyRatingView.h in Headers */ = {isa = PBXBuildFile; fileRef = F1A2455C158EED660010A611 /* ReyRatingView.h */; };
+		F1A24560158EED660010A611 /* ReyRatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1A2455D158EED660010A611 /* ReyRatingView.m */; };
+		F1A24561158EED660010A611 /* ReyRatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1A2455D158EED660010A611 /* ReyRatingView.m */; };
+		F1A2929515C955A0000D0E88 /* ReyCodeXML.h in Headers */ = {isa = PBXBuildFile; fileRef = F1A2929315C955A0000D0E88 /* ReyCodeXML.h */; };
+		F1A2929615C955A0000D0E88 /* ReyCodeXML.h in Headers */ = {isa = PBXBuildFile; fileRef = F1A2929315C955A0000D0E88 /* ReyCodeXML.h */; };
+		F1A2929715C955A0000D0E88 /* ReyCodeXML.m in Sources */ = {isa = PBXBuildFile; fileRef = F1A2929415C955A0000D0E88 /* ReyCodeXML.m */; };
+		F1A2929815C955A0000D0E88 /* ReyCodeXML.m in Sources */ = {isa = PBXBuildFile; fileRef = F1A2929415C955A0000D0E88 /* ReyCodeXML.m */; };
+		F1A3709F155B7A6A0028B49F /* ReyTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = F1A3709D155B7A6A0028B49F /* ReyTextField.h */; };
+		F1A370A0155B7A6A0028B49F /* ReyTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = F1A3709D155B7A6A0028B49F /* ReyTextField.h */; };
+		F1A370A1155B7A6A0028B49F /* ReyTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = F1A3709E155B7A6A0028B49F /* ReyTextField.m */; };
+		F1A370A2155B7A6A0028B49F /* ReyTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = F1A3709E155B7A6A0028B49F /* ReyTextField.m */; };
+		F1A9471715FE21960029A714 /* ReyImageView_down.h in Headers */ = {isa = PBXBuildFile; fileRef = F1A9471515FE21960029A714 /* ReyImageView_down.h */; };
+		F1A9471815FE21960029A714 /* ReyImageView_down.h in Headers */ = {isa = PBXBuildFile; fileRef = F1A9471515FE21960029A714 /* ReyImageView_down.h */; };
+		F1A9471915FE21960029A714 /* ReyImageView_down.m in Sources */ = {isa = PBXBuildFile; fileRef = F1A9471615FE21960029A714 /* ReyImageView_down.m */; };
+		F1A9471A15FE21960029A714 /* ReyImageView_down.m in Sources */ = {isa = PBXBuildFile; fileRef = F1A9471615FE21960029A714 /* ReyImageView_down.m */; };
+		F1A9472015FE3BEE0029A714 /* ReyLoadView.h in Headers */ = {isa = PBXBuildFile; fileRef = F1A9471E15FE3BEE0029A714 /* ReyLoadView.h */; };
+		F1A9472115FE3BEE0029A714 /* ReyLoadView.h in Headers */ = {isa = PBXBuildFile; fileRef = F1A9471E15FE3BEE0029A714 /* ReyLoadView.h */; };
+		F1A9472215FE3BEE0029A714 /* ReyLoadView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1A9471F15FE3BEE0029A714 /* ReyLoadView.m */; };
+		F1A9472315FE3BEE0029A714 /* ReyLoadView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1A9471F15FE3BEE0029A714 /* ReyLoadView.m */; };
+		F1A9EBF214F268A100561BA3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1A9EBF114F268A100561BA3 /* QuartzCore.framework */; };
+		F1A9EBF414F268AB00561BA3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1A9EBF114F268A100561BA3 /* QuartzCore.framework */; };
+		F1B87D1414B555AD0072F6A9 /* ReyRockerEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = F1B87D1214B555AD0072F6A9 /* ReyRockerEvent.h */; };
+		F1B87D1514B555AD0072F6A9 /* ReyRockerEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B87D1314B555AD0072F6A9 /* ReyRockerEvent.m */; };
+		F1B89C0514C45F8400D9BF7C /* ReyAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = F1B89C0314C45F8400D9BF7C /* ReyAlert.h */; };
+		F1B89C0614C45F8400D9BF7C /* ReyAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B89C0414C45F8400D9BF7C /* ReyAlert.m */; };
+		F1C1B2951535549E00B2A94B /* ReyAlert_outGame.h in Headers */ = {isa = PBXBuildFile; fileRef = F1C1B2911535549E00B2A94B /* ReyAlert_outGame.h */; };
+		F1C1B2961535549E00B2A94B /* ReyAlert_outGame.h in Headers */ = {isa = PBXBuildFile; fileRef = F1C1B2911535549E00B2A94B /* ReyAlert_outGame.h */; };
+		F1C1B2971535549E00B2A94B /* ReyAlert_outGame.m in Sources */ = {isa = PBXBuildFile; fileRef = F1C1B2921535549E00B2A94B /* ReyAlert_outGame.m */; };
+		F1C1B2981535549E00B2A94B /* ReyAlert_outGame.m in Sources */ = {isa = PBXBuildFile; fileRef = F1C1B2921535549E00B2A94B /* ReyAlert_outGame.m */; };
+		F1C1B2991535549E00B2A94B /* ReyOutGameAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = F1C1B2931535549E00B2A94B /* ReyOutGameAlert.h */; };
+		F1C1B29A1535549E00B2A94B /* ReyOutGameAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = F1C1B2931535549E00B2A94B /* ReyOutGameAlert.h */; };
+		F1C1B29B1535549E00B2A94B /* ReyOutGameAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = F1C1B2941535549E00B2A94B /* ReyOutGameAlert.m */; };
+		F1C1B29C1535549E00B2A94B /* ReyOutGameAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = F1C1B2941535549E00B2A94B /* ReyOutGameAlert.m */; };
+		F1C1F2D71590616E00FFAE6D /* JSON.h in Headers */ = {isa = PBXBuildFile; fileRef = F1C1F2CA1590616E00FFAE6D /* JSON.h */; };
+		F1C1F2D81590616E00FFAE6D /* JSON.h in Headers */ = {isa = PBXBuildFile; fileRef = F1C1F2CA1590616E00FFAE6D /* JSON.h */; };
+		F1C1F2D91590616E00FFAE6D /* NSObject+SBJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = F1C1F2CB1590616E00FFAE6D /* NSObject+SBJSON.h */; };
+		F1C1F2DA1590616E00FFAE6D /* NSObject+SBJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = F1C1F2CB1590616E00FFAE6D /* NSObject+SBJSON.h */; };
+		F1C1F2DB1590616E00FFAE6D /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = F1C1F2CC1590616E00FFAE6D /* NSObject+SBJSON.m */; };
+		F1C1F2DC1590616E00FFAE6D /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = F1C1F2CC1590616E00FFAE6D /* NSObject+SBJSON.m */; };
+		F1C1F2DD1590616E00FFAE6D /* NSString+SBJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = F1C1F2CD1590616E00FFAE6D /* NSString+SBJSON.h */; };
+		F1C1F2DE1590616E00FFAE6D /* NSString+SBJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = F1C1F2CD1590616E00FFAE6D /* NSString+SBJSON.h */; };
+		F1C1F2DF1590616E00FFAE6D /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = F1C1F2CE1590616E00FFAE6D /* NSString+SBJSON.m */; };
+		F1C1F2E01590616E00FFAE6D /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = F1C1F2CE1590616E00FFAE6D /* NSString+SBJSON.m */; };
+		F1C1F2E11590616E00FFAE6D /* SBJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = F1C1F2CF1590616E00FFAE6D /* SBJSON.h */; };
+		F1C1F2E21590616E00FFAE6D /* SBJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = F1C1F2CF1590616E00FFAE6D /* SBJSON.h */; };
+		F1C1F2E31590616E00FFAE6D /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = F1C1F2D01590616E00FFAE6D /* SBJSON.m */; };
+		F1C1F2E41590616E00FFAE6D /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = F1C1F2D01590616E00FFAE6D /* SBJSON.m */; };
+		F1C1F2E51590616E00FFAE6D /* SBJsonBase.h in Headers */ = {isa = PBXBuildFile; fileRef = F1C1F2D11590616E00FFAE6D /* SBJsonBase.h */; };
+		F1C1F2E61590616E00FFAE6D /* SBJsonBase.h in Headers */ = {isa = PBXBuildFile; fileRef = F1C1F2D11590616E00FFAE6D /* SBJsonBase.h */; };
+		F1C1F2E71590616E00FFAE6D /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = F1C1F2D21590616E00FFAE6D /* SBJsonBase.m */; };
+		F1C1F2E81590616E00FFAE6D /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = F1C1F2D21590616E00FFAE6D /* SBJsonBase.m */; };
+		F1C1F2E91590616E00FFAE6D /* SBJsonParser.h in Headers */ = {isa = PBXBuildFile; fileRef = F1C1F2D31590616E00FFAE6D /* SBJsonParser.h */; };
+		F1C1F2EA1590616E00FFAE6D /* SBJsonParser.h in Headers */ = {isa = PBXBuildFile; fileRef = F1C1F2D31590616E00FFAE6D /* SBJsonParser.h */; };
+		F1C1F2EB1590616E00FFAE6D /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = F1C1F2D41590616E00FFAE6D /* SBJsonParser.m */; };
+		F1C1F2EC1590616E00FFAE6D /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = F1C1F2D41590616E00FFAE6D /* SBJsonParser.m */; };
+		F1C1F2ED1590616E00FFAE6D /* SBJsonWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = F1C1F2D51590616E00FFAE6D /* SBJsonWriter.h */; };
+		F1C1F2EE1590616E00FFAE6D /* SBJsonWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = F1C1F2D51590616E00FFAE6D /* SBJsonWriter.h */; };
+		F1C1F2EF1590616E00FFAE6D /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = F1C1F2D61590616E00FFAE6D /* SBJsonWriter.m */; };
+		F1C1F2F01590616E00FFAE6D /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = F1C1F2D61590616E00FFAE6D /* SBJsonWriter.m */; };
+		F1C377B91604BE3B00C50AA6 /* AFUIImageReflection.h in Headers */ = {isa = PBXBuildFile; fileRef = F1C377B71604BE3B00C50AA6 /* AFUIImageReflection.h */; };
+		F1C377BA1604BE3B00C50AA6 /* AFUIImageReflection.h in Headers */ = {isa = PBXBuildFile; fileRef = F1C377B71604BE3B00C50AA6 /* AFUIImageReflection.h */; };
+		F1D32C4514960E0300C0D512 /* ReyDownload_Post.h in Headers */ = {isa = PBXBuildFile; fileRef = F1D32C4314960E0300C0D512 /* ReyDownload_Post.h */; };
+		F1D32C4614960E0300C0D512 /* ReyDownload_Post.m in Sources */ = {isa = PBXBuildFile; fileRef = F1D32C4414960E0300C0D512 /* ReyDownload_Post.m */; };
+		F1D32C6E1496346E00C0D512 /* ReyXMLParser.h in Headers */ = {isa = PBXBuildFile; fileRef = F1D32C6A1496346E00C0D512 /* ReyXMLParser.h */; };
+		F1D32C6F1496346E00C0D512 /* ReyXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = F1D32C6B1496346E00C0D512 /* ReyXMLParser.m */; };
+		F1D32C751496380300C0D512 /* ReyXMLParser_GODLogin.h in Headers */ = {isa = PBXBuildFile; fileRef = F1D32C731496380300C0D512 /* ReyXMLParser_GODLogin.h */; };
+		F1D32C761496380300C0D512 /* ReyXMLParser_GODLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = F1D32C741496380300C0D512 /* ReyXMLParser_GODLogin.m */; };
+		F1D691D314DD33D7007B9C78 /* ReyInterchangeView.h in Headers */ = {isa = PBXBuildFile; fileRef = F1D691CF14DD33D7007B9C78 /* ReyInterchangeView.h */; };
+		F1D691D414DD33D7007B9C78 /* ReyInterchangeView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1D691D014DD33D7007B9C78 /* ReyInterchangeView.m */; };
+		F1D691D514DD33D7007B9C78 /* ReyInterchangeView_moveItem.h in Headers */ = {isa = PBXBuildFile; fileRef = F1D691D114DD33D7007B9C78 /* ReyInterchangeView_moveItem.h */; };
+		F1D691D614DD33D7007B9C78 /* ReyInterchangeView_moveItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F1D691D214DD33D7007B9C78 /* ReyInterchangeView_moveItem.m */; };
+		F1DDB91B14A4B05D00529BD6 /* ReyCoreMotion.h in Headers */ = {isa = PBXBuildFile; fileRef = F1DDB91914A4B05D00529BD6 /* ReyCoreMotion.h */; };
+		F1DDB91C14A4B05D00529BD6 /* ReyCoreMotion.m in Sources */ = {isa = PBXBuildFile; fileRef = F1DDB91A14A4B05D00529BD6 /* ReyCoreMotion.m */; };
+		F1E08A11152332E3009A7C66 /* ReyXMLParser_imgurl.h in Headers */ = {isa = PBXBuildFile; fileRef = F1E08A0F152332E3009A7C66 /* ReyXMLParser_imgurl.h */; };
+		F1E08A12152332E3009A7C66 /* ReyXMLParser_imgurl.h in Headers */ = {isa = PBXBuildFile; fileRef = F1E08A0F152332E3009A7C66 /* ReyXMLParser_imgurl.h */; };
+		F1E08A13152332E3009A7C66 /* ReyXMLParser_imgurl.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E08A10152332E3009A7C66 /* ReyXMLParser_imgurl.m */; };
+		F1E08A14152332E3009A7C66 /* ReyXMLParser_imgurl.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E08A10152332E3009A7C66 /* ReyXMLParser_imgurl.m */; };
+		F1E08A191523337E009A7C66 /* ReyCache.h in Headers */ = {isa = PBXBuildFile; fileRef = F1E08A171523337E009A7C66 /* ReyCache.h */; };
+		F1E08A1A1523337E009A7C66 /* ReyCache.h in Headers */ = {isa = PBXBuildFile; fileRef = F1E08A171523337E009A7C66 /* ReyCache.h */; };
+		F1E08A1B1523337E009A7C66 /* ReyCache.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E08A181523337E009A7C66 /* ReyCache.m */; };
+		F1E08A1C1523337E009A7C66 /* ReyCache.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E08A181523337E009A7C66 /* ReyCache.m */; };
+		F1E49C4A15DA6572005AD0BA /* SFHFKeychainUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = F1E49C4815DA6572005AD0BA /* SFHFKeychainUtils.h */; };
+		F1E49C4B15DA6572005AD0BA /* SFHFKeychainUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = F1E49C4815DA6572005AD0BA /* SFHFKeychainUtils.h */; };
+		F1E49C4C15DA6572005AD0BA /* SFHFKeychainUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E49C4915DA6572005AD0BA /* SFHFKeychainUtils.m */; };
+		F1E49C4D15DA6572005AD0BA /* SFHFKeychainUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E49C4915DA6572005AD0BA /* SFHFKeychainUtils.m */; };
+		F1E4F4481589AB4A00B181F5 /* ReyWebView.h in Headers */ = {isa = PBXBuildFile; fileRef = F1E4F4431589AB4A00B181F5 /* ReyWebView.h */; };
+		F1E4F4491589AB4A00B181F5 /* ReyWebView.h in Headers */ = {isa = PBXBuildFile; fileRef = F1E4F4431589AB4A00B181F5 /* ReyWebView.h */; };
+		F1E4F44A1589AB4A00B181F5 /* ReyWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E4F4441589AB4A00B181F5 /* ReyWebView.m */; };
+		F1E4F44B1589AB4A00B181F5 /* ReyWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E4F4441589AB4A00B181F5 /* ReyWebView.m */; };
+		F1E4F44C1589AB4A00B181F5 /* ReyWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F1E4F4451589AB4A00B181F5 /* ReyWebViewController.h */; };
+		F1E4F44D1589AB4A00B181F5 /* ReyWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F1E4F4451589AB4A00B181F5 /* ReyWebViewController.h */; };
+		F1E4F44E1589AB4A00B181F5 /* ReyWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E4F4461589AB4A00B181F5 /* ReyWebViewController.m */; };
+		F1E4F44F1589AB4A00B181F5 /* ReyWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E4F4461589AB4A00B181F5 /* ReyWebViewController.m */; };
+		F1E8078614C520DC00F512E3 /* ReyRockerEvent_4.h in Headers */ = {isa = PBXBuildFile; fileRef = F1E8078414C520DC00F512E3 /* ReyRockerEvent_4.h */; };
+		F1E8078714C520DC00F512E3 /* ReyRockerEvent_4.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E8078514C520DC00F512E3 /* ReyRockerEvent_4.m */; };
+		F1E807FC14C571A900F512E3 /* ReyPageControl.h in Headers */ = {isa = PBXBuildFile; fileRef = F1E807FA14C571A900F512E3 /* ReyPageControl.h */; };
+		F1E807FD14C571A900F512E3 /* ReyPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E807FB14C571A900F512E3 /* ReyPageControl.m */; };
+		F1E98A9F14C31C2E00EFF833 /* ReyPullView.h in Headers */ = {isa = PBXBuildFile; fileRef = F1E98A9B14C31C2E00EFF833 /* ReyPullView.h */; };
+		F1E98AA014C31C2E00EFF833 /* ReyPullView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E98A9C14C31C2E00EFF833 /* ReyPullView.m */; };
+		F1E98AA114C31C2E00EFF833 /* ReyPullView_moveBtn.h in Headers */ = {isa = PBXBuildFile; fileRef = F1E98A9D14C31C2E00EFF833 /* ReyPullView_moveBtn.h */; };
+		F1E98AA214C31C2E00EFF833 /* ReyPullView_moveBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E98A9E14C31C2E00EFF833 /* ReyPullView_moveBtn.m */; };
+		F1E98AA614C31C5300EFF833 /* ReyAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = F1E98AA414C31C5300EFF833 /* ReyAnimation.h */; };
+		F1E98AA714C31C5300EFF833 /* ReyAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E98AA514C31C5300EFF833 /* ReyAnimation.m */; };
+		F1E9D07F152459E200734D69 /* ReyProcess.h in Headers */ = {isa = PBXBuildFile; fileRef = F1E9D07D152459E200734D69 /* ReyProcess.h */; };
+		F1E9D080152459E200734D69 /* ReyProcess.h in Headers */ = {isa = PBXBuildFile; fileRef = F1E9D07D152459E200734D69 /* ReyProcess.h */; };
+		F1E9D081152459E200734D69 /* ReyProcess.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E9D07E152459E200734D69 /* ReyProcess.m */; };
+		F1E9D082152459E200734D69 /* ReyProcess.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E9D07E152459E200734D69 /* ReyProcess.m */; };
+		F1F31B371522A6370048A37A /* ReyDownloadQueue_cache.h in Headers */ = {isa = PBXBuildFile; fileRef = F1F31B351522A6370048A37A /* ReyDownloadQueue_cache.h */; };
+		F1F31B381522A6370048A37A /* ReyDownloadQueue_cache.h in Headers */ = {isa = PBXBuildFile; fileRef = F1F31B351522A6370048A37A /* ReyDownloadQueue_cache.h */; };
+		F1F31B391522A6370048A37A /* ReyDownloadQueue_cache.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F31B361522A6370048A37A /* ReyDownloadQueue_cache.m */; };
+		F1F31B3A1522A6370048A37A /* ReyDownloadQueue_cache.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F31B361522A6370048A37A /* ReyDownloadQueue_cache.m */; };
+		F1F5D0561498334700D55A6C /* ReyXMLParser_autoUpdate.h in Headers */ = {isa = PBXBuildFile; fileRef = F1F5D0541498334700D55A6C /* ReyXMLParser_autoUpdate.h */; };
+		F1F5D0571498334700D55A6C /* ReyXMLParser_autoUpdate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F5D0551498334700D55A6C /* ReyXMLParser_autoUpdate.m */; };
+		F1F8E1651658ECE6004241B9 /* ReyBreakLoadView.h in Headers */ = {isa = PBXBuildFile; fileRef = F1F8E1611658ECE6004241B9 /* ReyBreakLoadView.h */; };
+		F1F8E1661658ECE6004241B9 /* ReyBreakLoadView.h in Headers */ = {isa = PBXBuildFile; fileRef = F1F8E1611658ECE6004241B9 /* ReyBreakLoadView.h */; };
+		F1F8E1671658ECE6004241B9 /* ReyBreakLoadView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F8E1621658ECE6004241B9 /* ReyBreakLoadView.m */; };
+		F1F8E1681658ECE6004241B9 /* ReyBreakLoadView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F8E1621658ECE6004241B9 /* ReyBreakLoadView.m */; };
+		F1F8E1691658ECE6004241B9 /* Rey_BLV_item.h in Headers */ = {isa = PBXBuildFile; fileRef = F1F8E1631658ECE6004241B9 /* Rey_BLV_item.h */; };
+		F1F8E16A1658ECE6004241B9 /* Rey_BLV_item.h in Headers */ = {isa = PBXBuildFile; fileRef = F1F8E1631658ECE6004241B9 /* Rey_BLV_item.h */; };
+		F1F8E16B1658ECE6004241B9 /* Rey_BLV_item.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F8E1641658ECE6004241B9 /* Rey_BLV_item.m */; };
+		F1F8E16C1658ECE6004241B9 /* Rey_BLV_item.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F8E1641658ECE6004241B9 /* Rey_BLV_item.m */; };
+		F1FC121614DE733B003A1032 /* ReyCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = F1FC121414DE733B003A1032 /* ReyCommon.h */; };
+		F1FC121714DE733B003A1032 /* ReyCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FC121514DE733B003A1032 /* ReyCommon.m */; };
+		F1FC121914DE744A003A1032 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1FC121814DE744A003A1032 /* AudioToolbox.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F10192D314DFA1CD001716F2 /* ReySlipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReySlipView.h; sourceTree = "<group>"; };
+		F10192D414DFA1CD001716F2 /* ReySlipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReySlipView.m; sourceTree = "<group>"; };
+		F10497801570CA0E00B4D7F7 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		F10F474915CA7D91000C0B89 /* ReyDownload_soap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyDownload_soap.h; sourceTree = "<group>"; };
+		F10F474A15CA7D91000C0B89 /* ReyDownload_soap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyDownload_soap.m; sourceTree = "<group>"; };
+		F1109A4715D0BB6700DA03E7 /* ReyMD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyMD5.h; sourceTree = "<group>"; };
+		F1109A4815D0BB6700DA03E7 /* ReyMD5.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ReyMD5.mm; sourceTree = "<group>"; };
+		F1113FB4149775ED005E10C3 /* ReyError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyError.h; sourceTree = "<group>"; };
+		F1113FB5149775ED005E10C3 /* ReyError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyError.m; sourceTree = "<group>"; };
+		F1113FB914977605005E10C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/ReyError.strings; sourceTree = "<group>"; };
+		F1113FBB1497760E005E10C3 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/ReyError.strings"; sourceTree = "<group>"; };
+		F116408316CF6B3800485FAD /* ReyDownloadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyDownloadManager.h; sourceTree = "<group>"; };
+		F116408416CF6B3800485FAD /* ReyDownloadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyDownloadManager.m; sourceTree = "<group>"; };
+		F116408516CF6B3800485FAD /* ReyDownloadItem_private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyDownloadItem_private.h; sourceTree = "<group>"; };
+		F116408616CF6B3800485FAD /* ReyDownloadItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyDownloadItem.h; sourceTree = "<group>"; };
+		F116408716CF6B3800485FAD /* ReyDownloadItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyDownloadItem.m; sourceTree = "<group>"; };
+		F1220E8314EB4EC70094EE75 /* ReyImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyImageView.h; sourceTree = "<group>"; };
+		F1220E8414EB4EC70094EE75 /* ReyImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyImageView.m; sourceTree = "<group>"; };
+		F12337AD16528CB20019B122 /* ReyScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyScrollView.h; sourceTree = "<group>"; };
+		F12337AE16528CB20019B122 /* ReyScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyScrollView.m; sourceTree = "<group>"; };
+		F12337C2165344270019B122 /* ReyScrollView_detailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyScrollView_detailView.h; sourceTree = "<group>"; };
+		F12337C3165344270019B122 /* ReyScrollView_detailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyScrollView_detailView.m; sourceTree = "<group>"; };
+		F123A5C914A424E50004D927 /* IrregularShapedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IrregularShapedButton.h; sourceTree = "<group>"; };
+		F123A5CA14A424E50004D927 /* IrregularShapedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IrregularShapedButton.m; sourceTree = "<group>"; };
+		F123A5CB14A424E50004D927 /* UIImage-Alpha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage-Alpha.h"; sourceTree = "<group>"; };
+		F123A5CC14A424E50004D927 /* UIImage-Alpha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage-Alpha.m"; sourceTree = "<group>"; };
+		F12D309315206B120022A198 /* ReyDownload_cache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyDownload_cache.h; sourceTree = "<group>"; };
+		F12D309415206B120022A198 /* ReyDownload_cache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyDownload_cache.m; sourceTree = "<group>"; };
+		F1300F7814979B87001AA8E3 /* ReyLoading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyLoading.h; sourceTree = "<group>"; };
+		F1300F7914979B87001AA8E3 /* ReyLoading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyLoading.m; sourceTree = "<group>"; };
+		F138906E15CFA7940066A5F9 /* ReyMask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ReyMask.png; sourceTree = "<group>"; };
+		F138908E15CFB7510066A5F9 /* ReyLabel_rocker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyLabel_rocker.h; sourceTree = "<group>"; };
+		F138908F15CFB7510066A5F9 /* ReyLabel_rocker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyLabel_rocker.m; sourceTree = "<group>"; };
+		F13951251520C41E00AF8244 /* ReyAlert_autoDisconnect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyAlert_autoDisconnect.h; sourceTree = "<group>"; };
+		F13951291520C43300AF8244 /* ReyAlert_autoDisconnect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyAlert_autoDisconnect.m; sourceTree = "<group>"; };
+		F139512C1520C44200AF8244 /* ReyAutoDisconnAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyAutoDisconnAlert.h; sourceTree = "<group>"; };
+		F139512F1520C44D00AF8244 /* ReyAutoDisconnAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyAutoDisconnAlert.m; sourceTree = "<group>"; };
+		F13A69CB15198162009E2DDF /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		F13A69CC15198162009E2DDF /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		F13A69D4151981AA009E2DDF /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F13A69D815198277009E2DDF /* ReyNetWorkStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyNetWorkStatus.h; sourceTree = "<group>"; };
+		F13A69D915198277009E2DDF /* ReyNetWorkStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyNetWorkStatus.m; sourceTree = "<group>"; };
+		F144D2F214C3F461000B69EA /* ReyRotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyRotationView.h; sourceTree = "<group>"; };
+		F144D2F314C3F461000B69EA /* ReyRotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyRotationView.m; sourceTree = "<group>"; };
+		F144D31614C3FBDF000B69EA /* ReyHelpView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyHelpView.h; sourceTree = "<group>"; };
+		F144D31714C3FBDF000B69EA /* ReyHelpView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyHelpView.m; sourceTree = "<group>"; };
+		F14C206814DBA35E009240C5 /* ReyButton_rotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyButton_rotation.h; sourceTree = "<group>"; };
+		F14C206914DBA35E009240C5 /* ReyButton_rotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyButton_rotation.m; sourceTree = "<group>"; };
+		F14FD3F514C416DA0048BF61 /* ReyPullView_multiMoveBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyPullView_multiMoveBtn.h; sourceTree = "<group>"; };
+		F14FD3F614C416DA0048BF61 /* ReyPullView_multiMoveBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyPullView_multiMoveBtn.m; sourceTree = "<group>"; };
+		F1506D8314E0EDC00071FB73 /* ReySteeringWheel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReySteeringWheel.h; sourceTree = "<group>"; };
+		F1506D8414E0EDC00071FB73 /* ReySteeringWheel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReySteeringWheel.m; sourceTree = "<group>"; };
+		F154900715D10D5F00400EAD /* MD5.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MD5.cpp; sourceTree = "<group>"; };
+		F154900815D10D5F00400EAD /* MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MD5.h; sourceTree = "<group>"; };
+		F154B916165DF949005FD947 /* ReyFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyFilter.h; sourceTree = "<group>"; };
+		F154B917165DF949005FD947 /* ReyFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyFilter.m; sourceTree = "<group>"; };
+		F154B91D165DFE22005FD947 /* ReyFilter_smooth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyFilter_smooth.h; sourceTree = "<group>"; };
+		F154B91E165DFE22005FD947 /* ReyFilter_smooth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyFilter_smooth.m; sourceTree = "<group>"; };
+		F154B923165DFEC9005FD947 /* ReyARBG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyARBG.h; sourceTree = "<group>"; };
+		F154B92A165E036E005FD947 /* ReyARBG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyARBG.m; sourceTree = "<group>"; };
+		F154B933165F0AF3005FD947 /* ReyFilter_rainbow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyFilter_rainbow.h; sourceTree = "<group>"; };
+		F154B934165F0AF3005FD947 /* ReyFilter_rainbow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyFilter_rainbow.m; sourceTree = "<group>"; };
+		F154B93D165F413D005FD947 /* ReyFilter_sharpen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyFilter_sharpen.h; sourceTree = "<group>"; };
+		F154B93E165F413D005FD947 /* ReyFilter_sharpen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyFilter_sharpen.m; sourceTree = "<group>"; };
+		F155171315F98FCA007E6456 /* AzDG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AzDG.h; sourceTree = "<group>"; };
+		F155171415F98FCA007E6456 /* AzDG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AzDG.m; sourceTree = "<group>"; };
+		F155172015F99420007E6456 /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		F155172115F99420007E6456 /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		F155172215F99420007E6456 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		F159E81E1498A8DA00F8C5B3 /* ReyXMLParser_keys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyXMLParser_keys.h; sourceTree = "<group>"; };
+		F159E81F1498A8DA00F8C5B3 /* ReyXMLParser_keys.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyXMLParser_keys.m; sourceTree = "<group>"; };
+		F15B76961495CD93004425EE /* ReyDownload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyDownload.h; sourceTree = "<group>"; };
+		F15B76971495CD93004425EE /* ReyDownload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyDownload.m; sourceTree = "<group>"; };
+		F15C128914D7EA3400677ED5 /* ReyPullView_customMoveBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyPullView_customMoveBtn.h; sourceTree = "<group>"; };
+		F15C128A14D7EA3400677ED5 /* ReyPullView_customMoveBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyPullView_customMoveBtn.m; sourceTree = "<group>"; };
+		F160099115DFA42F00C193D9 /* ReyBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyBar.h; sourceTree = "<group>"; };
+		F160099215DFA42F00C193D9 /* ReyBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyBar.m; sourceTree = "<group>"; };
+		F165F11F147DF4E100EA1F00 /* libReyCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libReyCore.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F165F122147DF4E100EA1F00 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F165F126147DF4E100EA1F00 /* ReyCore-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ReyCore-Prefix.pch"; sourceTree = "<group>"; };
+		F165F12D147DF51100EA1F00 /* ReyLabel_shadow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyLabel_shadow.h; sourceTree = "<group>"; };
+		F165F12E147DF51100EA1F00 /* ReyLabel_shadow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyLabel_shadow.m; sourceTree = "<group>"; };
+		F165F12F147DF51100EA1F00 /* ReyLabel_shadowExtra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyLabel_shadowExtra.h; sourceTree = "<group>"; };
+		F165F130147DF51100EA1F00 /* ReyLabel_shadowExtra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyLabel_shadowExtra.m; sourceTree = "<group>"; };
+		F165F135147DF53B00EA1F00 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F165F137147DF55200EA1F00 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F1670D961592B991001DC6A5 /* ReyLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyLocation.h; sourceTree = "<group>"; };
+		F1670D971592B991001DC6A5 /* ReyLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyLocation.m; sourceTree = "<group>"; };
+		F1670D981592B991001DC6A5 /* ReyMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyMapView.h; sourceTree = "<group>"; };
+		F1670D991592B991001DC6A5 /* ReyMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyMapView.m; sourceTree = "<group>"; };
+		F1670DA31592B9A8001DC6A5 /* I_ReyAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = I_ReyAnnotationView.h; sourceTree = "<group>"; };
+		F1670DA41592B9A8001DC6A5 /* ReyAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyAnnotationView.h; sourceTree = "<group>"; };
+		F1670DA51592B9A8001DC6A5 /* ReyAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyAnnotationView.m; sourceTree = "<group>"; };
+		F16DB58614C185560059C279 /* ReyCustomAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyCustomAlert.h; sourceTree = "<group>"; };
+		F16DB58714C185560059C279 /* ReyCustomAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyCustomAlert.m; sourceTree = "<group>"; };
+		F17D871616704504007B7F4F /* IPAdress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPAdress.h; sourceTree = "<group>"; };
+		F17D871916704514007B7F4F /* ReyIPAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyIPAddress.h; sourceTree = "<group>"; };
+		F17D871A16704514007B7F4F /* ReyIPAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyIPAddress.m; sourceTree = "<group>"; };
+		F182BBE9152D439B00C936ED /* libzbar.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libzbar.a; sourceTree = "<group>"; };
+		F182BBEB152D43AD00C936ED /* i386libzbar.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = i386libzbar.a; sourceTree = "<group>"; };
+		F1899546149C65D7002C5A0A /* ReyXMLParser_GetGid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyXMLParser_GetGid.h; sourceTree = "<group>"; };
+		F1899547149C65D7002C5A0A /* ReyXMLParser_GetGid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyXMLParser_GetGid.m; sourceTree = "<group>"; };
+		F18B3B0A14F258020041865F /* Decoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Decoder.h; sourceTree = "<group>"; };
+		F18B3B0B14F258020041865F /* Exception.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exception.h; sourceTree = "<group>"; };
+		F18B3B0C14F258020041865F /* Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Image.h; sourceTree = "<group>"; };
+		F18B3B0D14F258020041865F /* ImageScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageScanner.h; sourceTree = "<group>"; };
+		F18B3B0E14F258020041865F /* Processor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Processor.h; sourceTree = "<group>"; };
+		F18B3B0F14F258020041865F /* Scanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scanner.h; sourceTree = "<group>"; };
+		F18B3B1014F258020041865F /* Symbol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Symbol.h; sourceTree = "<group>"; };
+		F18B3B1114F258020041865F /* Video.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Video.h; sourceTree = "<group>"; };
+		F18B3B1214F258020041865F /* Window.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Window.h; sourceTree = "<group>"; };
+		F18B3B1314F258020041865F /* zbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zbar.h; sourceTree = "<group>"; };
+		F18B3B1414F258020041865F /* ZBarCameraSimulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarCameraSimulator.h; sourceTree = "<group>"; };
+		F18B3B1514F258020041865F /* ZBarCaptureReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarCaptureReader.h; sourceTree = "<group>"; };
+		F18B3B1614F258020041865F /* ZBarHelpController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarHelpController.h; sourceTree = "<group>"; };
+		F18B3B1714F258020041865F /* ZBarImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarImage.h; sourceTree = "<group>"; };
+		F18B3B1814F258020041865F /* ZBarImageScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarImageScanner.h; sourceTree = "<group>"; };
+		F18B3B1914F258020041865F /* ZBarReaderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarReaderController.h; sourceTree = "<group>"; };
+		F18B3B1A14F258020041865F /* ZBarReaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarReaderView.h; sourceTree = "<group>"; };
+		F18B3B1B14F258020041865F /* ZBarReaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarReaderViewController.h; sourceTree = "<group>"; };
+		F18B3B1C14F258020041865F /* ZBarSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarSDK.h; sourceTree = "<group>"; };
+		F18B3B1D14F258020041865F /* ZBarSymbol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarSymbol.h; sourceTree = "<group>"; };
+		F18B3BE114F25CC50041865F /* libReyCore copy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libReyCore copy.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F18B3BE314F260610041865F /* ReyZBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyZBar.h; sourceTree = "<group>"; };
+		F18B3BE414F260610041865F /* ReyZBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyZBar.m; sourceTree = "<group>"; };
+		F18B3C1214F2676B0041865F /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
+		F18B3C1314F2676B0041865F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		F18B3C1414F2676B0041865F /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		F18B3C1514F2676B0041865F /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		F18B774714BEDC02006390F9 /* ReyPopupView_circle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyPopupView_circle.h; sourceTree = "<group>"; };
+		F18B774814BEDC02006390F9 /* ReyPopupView_circle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyPopupView_circle.m; sourceTree = "<group>"; };
+		F18B774914BEDC02006390F9 /* ReyPopupView_circleItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyPopupView_circleItem.h; sourceTree = "<group>"; };
+		F18B774A14BEDC02006390F9 /* ReyPopupView_circleItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyPopupView_circleItem.m; sourceTree = "<group>"; };
+		F190C5ED15EF8CAF0066DF6E /* ReyShareEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyShareEngine.h; sourceTree = "<group>"; };
+		F190C5EE15EF8CAF0066DF6E /* ReyShareEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyShareEngine.m; sourceTree = "<group>"; };
+		F190C5F315EF8CC30066DF6E /* ReyShareEngine_sina.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyShareEngine_sina.h; sourceTree = "<group>"; };
+		F190C5F415EF8CC30066DF6E /* ReyShareEngine_sina.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyShareEngine_sina.m; sourceTree = "<group>"; };
+		F190C5F515EF8CC30066DF6E /* ReyShareEngine_QQ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyShareEngine_QQ.h; sourceTree = "<group>"; };
+		F190C5F615EF8CC30066DF6E /* ReyShareEngine_QQ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyShareEngine_QQ.m; sourceTree = "<group>"; };
+		F190C5F715EF8CC30066DF6E /* ReyShareEngine_renren.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyShareEngine_renren.h; sourceTree = "<group>"; };
+		F190C5F815EF8CC30066DF6E /* ReyShareEngine_renren.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ReyShareEngine_renren.mm; sourceTree = "<group>"; };
+		F190C5F915EF8CC30066DF6E /* ReyShareEngine_douban.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyShareEngine_douban.h; sourceTree = "<group>"; };
+		F190C5FA15EF8CC30066DF6E /* ReyShareEngine_douban.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyShareEngine_douban.m; sourceTree = "<group>"; };
+		F190C60C15EF8CF80066DF6E /* ReyShareRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyShareRequest.h; sourceTree = "<group>"; };
+		F190C60D15EF8CF80066DF6E /* ReyShareRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyShareRequest.m; sourceTree = "<group>"; };
+		F190C61315EF8D180066DF6E /* ReyShareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyShareView.h; sourceTree = "<group>"; };
+		F190C61415EF8D180066DF6E /* ReyShareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyShareView.m; sourceTree = "<group>"; };
+		F190C61915EF8D2C0066DF6E /* ReyShareKeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyShareKeys.h; sourceTree = "<group>"; };
+		F190C61A15EF8D2C0066DF6E /* ReyShare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyShare.h; sourceTree = "<group>"; };
+		F190C61B15EF8D2C0066DF6E /* ReyShare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyShare.m; sourceTree = "<group>"; };
+		F190C61C15EF8D2C0066DF6E /* ReyShare_OneKeyStep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyShare_OneKeyStep.h; sourceTree = "<group>"; };
+		F190C61D15EF8D2C0066DF6E /* ReyShare_OneKeyStep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyShare_OneKeyStep.m; sourceTree = "<group>"; };
+		F190C62815EF8D670066DF6E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		F1A2455C158EED660010A611 /* ReyRatingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyRatingView.h; sourceTree = "<group>"; };
+		F1A2455D158EED660010A611 /* ReyRatingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyRatingView.m; sourceTree = "<group>"; };
+		F1A2929315C955A0000D0E88 /* ReyCodeXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyCodeXML.h; sourceTree = "<group>"; };
+		F1A2929415C955A0000D0E88 /* ReyCodeXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyCodeXML.m; sourceTree = "<group>"; };
+		F1A3709D155B7A6A0028B49F /* ReyTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyTextField.h; sourceTree = "<group>"; };
+		F1A3709E155B7A6A0028B49F /* ReyTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyTextField.m; sourceTree = "<group>"; };
+		F1A9471515FE21960029A714 /* ReyImageView_down.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyImageView_down.h; sourceTree = "<group>"; };
+		F1A9471615FE21960029A714 /* ReyImageView_down.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyImageView_down.m; sourceTree = "<group>"; };
+		F1A9471E15FE3BEE0029A714 /* ReyLoadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyLoadView.h; sourceTree = "<group>"; };
+		F1A9471F15FE3BEE0029A714 /* ReyLoadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyLoadView.m; sourceTree = "<group>"; };
+		F1A9A2721609736000832230 /* Rey_close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rey_close@2x.png"; sourceTree = "<group>"; };
+		F1A9EBF114F268A100561BA3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F1B87D1214B555AD0072F6A9 /* ReyRockerEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyRockerEvent.h; sourceTree = "<group>"; };
+		F1B87D1314B555AD0072F6A9 /* ReyRockerEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyRockerEvent.m; sourceTree = "<group>"; };
+		F1B89C0314C45F8400D9BF7C /* ReyAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyAlert.h; sourceTree = "<group>"; };
+		F1B89C0414C45F8400D9BF7C /* ReyAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyAlert.m; sourceTree = "<group>"; };
+		F1C1B2911535549E00B2A94B /* ReyAlert_outGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyAlert_outGame.h; sourceTree = "<group>"; };
+		F1C1B2921535549E00B2A94B /* ReyAlert_outGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyAlert_outGame.m; sourceTree = "<group>"; };
+		F1C1B2931535549E00B2A94B /* ReyOutGameAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyOutGameAlert.h; sourceTree = "<group>"; };
+		F1C1B2941535549E00B2A94B /* ReyOutGameAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyOutGameAlert.m; sourceTree = "<group>"; };
+		F1C1F2CA1590616E00FFAE6D /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		F1C1F2CB1590616E00FFAE6D /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		F1C1F2CC1590616E00FFAE6D /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		F1C1F2CD1590616E00FFAE6D /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		F1C1F2CE1590616E00FFAE6D /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		F1C1F2CF1590616E00FFAE6D /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		F1C1F2D01590616E00FFAE6D /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		F1C1F2D11590616E00FFAE6D /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		F1C1F2D21590616E00FFAE6D /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		F1C1F2D31590616E00FFAE6D /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		F1C1F2D41590616E00FFAE6D /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		F1C1F2D51590616E00FFAE6D /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		F1C1F2D61590616E00FFAE6D /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		F1C377B71604BE3B00C50AA6 /* AFUIImageReflection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFUIImageReflection.h; sourceTree = "<group>"; };
+		F1D32C4314960E0300C0D512 /* ReyDownload_Post.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyDownload_Post.h; sourceTree = "<group>"; };
+		F1D32C4414960E0300C0D512 /* ReyDownload_Post.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyDownload_Post.m; sourceTree = "<group>"; };
+		F1D32C6A1496346E00C0D512 /* ReyXMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyXMLParser.h; sourceTree = "<group>"; };
+		F1D32C6B1496346E00C0D512 /* ReyXMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyXMLParser.m; sourceTree = "<group>"; };
+		F1D32C731496380300C0D512 /* ReyXMLParser_GODLogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyXMLParser_GODLogin.h; sourceTree = "<group>"; };
+		F1D32C741496380300C0D512 /* ReyXMLParser_GODLogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyXMLParser_GODLogin.m; sourceTree = "<group>"; };
+		F1D691CF14DD33D7007B9C78 /* ReyInterchangeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyInterchangeView.h; sourceTree = "<group>"; };
+		F1D691D014DD33D7007B9C78 /* ReyInterchangeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyInterchangeView.m; sourceTree = "<group>"; };
+		F1D691D114DD33D7007B9C78 /* ReyInterchangeView_moveItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyInterchangeView_moveItem.h; sourceTree = "<group>"; };
+		F1D691D214DD33D7007B9C78 /* ReyInterchangeView_moveItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyInterchangeView_moveItem.m; sourceTree = "<group>"; };
+		F1DDB91914A4B05D00529BD6 /* ReyCoreMotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyCoreMotion.h; sourceTree = "<group>"; };
+		F1DDB91A14A4B05D00529BD6 /* ReyCoreMotion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyCoreMotion.m; sourceTree = "<group>"; };
+		F1E08A0F152332E3009A7C66 /* ReyXMLParser_imgurl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyXMLParser_imgurl.h; sourceTree = "<group>"; };
+		F1E08A10152332E3009A7C66 /* ReyXMLParser_imgurl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyXMLParser_imgurl.m; sourceTree = "<group>"; };
+		F1E08A171523337E009A7C66 /* ReyCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyCache.h; sourceTree = "<group>"; };
+		F1E08A181523337E009A7C66 /* ReyCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyCache.m; sourceTree = "<group>"; };
+		F1E49C4815DA6572005AD0BA /* SFHFKeychainUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFHFKeychainUtils.h; sourceTree = "<group>"; };
+		F1E49C4915DA6572005AD0BA /* SFHFKeychainUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFHFKeychainUtils.m; sourceTree = "<group>"; };
+		F1E4F4431589AB4A00B181F5 /* ReyWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyWebView.h; sourceTree = "<group>"; };
+		F1E4F4441589AB4A00B181F5 /* ReyWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyWebView.m; sourceTree = "<group>"; };
+		F1E4F4451589AB4A00B181F5 /* ReyWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyWebViewController.h; sourceTree = "<group>"; };
+		F1E4F4461589AB4A00B181F5 /* ReyWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyWebViewController.m; sourceTree = "<group>"; };
+		F1E4F4471589AB4A00B181F5 /* ReyWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReyWebViewController.xib; sourceTree = "<group>"; };
+		F1E8078414C520DC00F512E3 /* ReyRockerEvent_4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyRockerEvent_4.h; sourceTree = "<group>"; };
+		F1E8078514C520DC00F512E3 /* ReyRockerEvent_4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyRockerEvent_4.m; sourceTree = "<group>"; };
+		F1E807FA14C571A900F512E3 /* ReyPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyPageControl.h; sourceTree = "<group>"; };
+		F1E807FB14C571A900F512E3 /* ReyPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyPageControl.m; sourceTree = "<group>"; };
+		F1E98A9B14C31C2E00EFF833 /* ReyPullView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyPullView.h; sourceTree = "<group>"; };
+		F1E98A9C14C31C2E00EFF833 /* ReyPullView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyPullView.m; sourceTree = "<group>"; };
+		F1E98A9D14C31C2E00EFF833 /* ReyPullView_moveBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyPullView_moveBtn.h; sourceTree = "<group>"; };
+		F1E98A9E14C31C2E00EFF833 /* ReyPullView_moveBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyPullView_moveBtn.m; sourceTree = "<group>"; };
+		F1E98AA414C31C5300EFF833 /* ReyAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyAnimation.h; sourceTree = "<group>"; };
+		F1E98AA514C31C5300EFF833 /* ReyAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyAnimation.m; sourceTree = "<group>"; };
+		F1E9D07D152459E200734D69 /* ReyProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyProcess.h; sourceTree = "<group>"; };
+		F1E9D07E152459E200734D69 /* ReyProcess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyProcess.m; sourceTree = "<group>"; };
+		F1F31B351522A6370048A37A /* ReyDownloadQueue_cache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyDownloadQueue_cache.h; sourceTree = "<group>"; };
+		F1F31B361522A6370048A37A /* ReyDownloadQueue_cache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyDownloadQueue_cache.m; sourceTree = "<group>"; };
+		F1F5D0541498334700D55A6C /* ReyXMLParser_autoUpdate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyXMLParser_autoUpdate.h; sourceTree = "<group>"; };
+		F1F5D0551498334700D55A6C /* ReyXMLParser_autoUpdate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyXMLParser_autoUpdate.m; sourceTree = "<group>"; };
+		F1F8E1611658ECE6004241B9 /* ReyBreakLoadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyBreakLoadView.h; sourceTree = "<group>"; };
+		F1F8E1621658ECE6004241B9 /* ReyBreakLoadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyBreakLoadView.m; sourceTree = "<group>"; };
+		F1F8E1631658ECE6004241B9 /* Rey_BLV_item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rey_BLV_item.h; sourceTree = "<group>"; };
+		F1F8E1641658ECE6004241B9 /* Rey_BLV_item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rey_BLV_item.m; sourceTree = "<group>"; };
+		F1FC121414DE733B003A1032 /* ReyCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyCommon.h; sourceTree = "<group>"; };
+		F1FC121514DE733B003A1032 /* ReyCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyCommon.m; sourceTree = "<group>"; };
+		F1FC121814DE744A003A1032 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F165F11C147DF4E100EA1F00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F190C62915EF8D670066DF6E /* Security.framework in Frameworks */,
+				F10497811570CA0E00B4D7F7 /* CoreFoundation.framework in Frameworks */,
+				F13A69D5151981AA009E2DDF /* SystemConfiguration.framework in Frameworks */,
+				F1A9EBF414F268AB00561BA3 /* QuartzCore.framework in Frameworks */,
+				F1FC121914DE744A003A1032 /* AudioToolbox.framework in Frameworks */,
+				F165F138147DF55200EA1F00 /* CoreGraphics.framework in Frameworks */,
+				F165F136147DF53B00EA1F00 /* UIKit.framework in Frameworks */,
+				F165F123147DF4E100EA1F00 /* Foundation.framework in Frameworks */,
+				F18B3C1614F2676B0041865F /* libiconv.dylib in Frameworks */,
+				F18B3C1814F2676B0041865F /* AVFoundation.framework in Frameworks */,
+				F18B3C1A14F2676B0041865F /* CoreVideo.framework in Frameworks */,
+				F18B3C1C14F2676B0041865F /* CoreMedia.framework in Frameworks */,
+				F182BBEA152D439B00C936ED /* libzbar.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F18B3BA014F25CC50041865F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F190C62A15EF8D7C0066DF6E /* Security.framework in Frameworks */,
+				F10497831570CA1700B4D7F7 /* CoreFoundation.framework in Frameworks */,
+				F13A69D6151981B3009E2DDF /* SystemConfiguration.framework in Frameworks */,
+				F1A9EBF214F268A100561BA3 /* QuartzCore.framework in Frameworks */,
+				F18B3C2114F267C90041865F /* CoreMedia.framework in Frameworks */,
+				F18B3C2014F267BF0041865F /* libiconv.dylib in Frameworks */,
+				F18B3C1F14F267B30041865F /* AVFoundation.framework in Frameworks */,
+				F18B3C1E14F2679D0041865F /* CoreVideo.framework in Frameworks */,
+				F18B3BA114F25CC50041865F /* AudioToolbox.framework in Frameworks */,
+				F18B3BA214F25CC50041865F /* CoreGraphics.framework in Frameworks */,
+				F18B3BA314F25CC50041865F /* UIKit.framework in Frameworks */,
+				F18B3BA414F25CC50041865F /* Foundation.framework in Frameworks */,
+				F182BBEC152D43AD00C936ED /* i386libzbar.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F10192D114DFA19E001716F2 /* ReySlipView */ = {
+			isa = PBXGroup;
+			children = (
+				F10192D314DFA1CD001716F2 /* ReySlipView.h */,
+				F10192D414DFA1CD001716F2 /* ReySlipView.m */,
+			);
+			name = ReySlipView;
+			sourceTree = "<group>";
+		};
+		F1109A4515D0BB3900DA03E7 /* MD5 */ = {
+			isa = PBXGroup;
+			children = (
+				F154900715D10D5F00400EAD /* MD5.cpp */,
+				F154900815D10D5F00400EAD /* MD5.h */,
+				F1109A4715D0BB6700DA03E7 /* ReyMD5.h */,
+				F1109A4815D0BB6700DA03E7 /* ReyMD5.mm */,
+			);
+			name = MD5;
+			sourceTree = "<group>";
+		};
+		F1113FB2149775D9005E10C3 /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				F1C1B2901535545500B2A94B /* ReyAlert_outGame */,
+				F13951321520C46200AF8244 /* ReyAlert_autoDisconnect */,
+				F16DB58514C185290059C279 /* CustomAlert */,
+				F16DB58314C184940059C279 /* error */,
+			);
+			name = Alert;
+			sourceTree = "<group>";
+		};
+		F116408216CF6B2300485FAD /* ReyThreadManager */ = {
+			isa = PBXGroup;
+			children = (
+				F116408316CF6B3800485FAD /* ReyDownloadManager.h */,
+				F116408416CF6B3800485FAD /* ReyDownloadManager.m */,
+				F116408516CF6B3800485FAD /* ReyDownloadItem_private.h */,
+				F116408616CF6B3800485FAD /* ReyDownloadItem.h */,
+				F116408716CF6B3800485FAD /* ReyDownloadItem.m */,
+			);
+			name = ReyThreadManager;
+			sourceTree = "<group>";
+		};
+		F1220E8114EB4EA90094EE75 /* ReyImageView */ = {
+			isa = PBXGroup;
+			children = (
+				F1220E8314EB4EC70094EE75 /* ReyImageView.h */,
+				F1220E8414EB4EC70094EE75 /* ReyImageView.m */,
+				F1A9471515FE21960029A714 /* ReyImageView_down.h */,
+				F1A9471615FE21960029A714 /* ReyImageView_down.m */,
+			);
+			name = ReyImageView;
+			sourceTree = "<group>";
+		};
+		F12337AC16528C9B0019B122 /* ReyScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				F12337AD16528CB20019B122 /* ReyScrollView.h */,
+				F12337AE16528CB20019B122 /* ReyScrollView.m */,
+				F12337C2165344270019B122 /* ReyScrollView_detailView.h */,
+				F12337C3165344270019B122 /* ReyScrollView_detailView.m */,
+			);
+			name = ReyScrollView;
+			sourceTree = "<group>";
+		};
+		F123A5C614A424930004D927 /* ReyButton */ = {
+			isa = PBXGroup;
+			children = (
+				F14C206714DBA337009240C5 /* Rotation Button */,
+				F123A5C814A424CF0004D927 /* IrregularShapedButton */,
+			);
+			name = ReyButton;
+			sourceTree = "<group>";
+		};
+		F123A5C814A424CF0004D927 /* IrregularShapedButton */ = {
+			isa = PBXGroup;
+			children = (
+				F123A5CA14A424E50004D927 /* IrregularShapedButton.m */,
+				F123A5C914A424E50004D927 /* IrregularShapedButton.h */,
+				F123A5CB14A424E50004D927 /* UIImage-Alpha.h */,
+				F123A5CC14A424E50004D927 /* UIImage-Alpha.m */,
+			);
+			name = IrregularShapedButton;
+			sourceTree = "<group>";
+		};
+		F12D6420151C47E9007DFA5C /* DownloadQueue */ = {
+			isa = PBXGroup;
+			children = (
+				F1F31B351522A6370048A37A /* ReyDownloadQueue_cache.h */,
+				F1F31B361522A6370048A37A /* ReyDownloadQueue_cache.m */,
+			);
+			name = DownloadQueue;
+			sourceTree = "<group>";
+		};
+		F138906D15CFA7940066A5F9 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				F1A9A2721609736000832230 /* Rey_close@2x.png */,
+				F138906E15CFA7940066A5F9 /* ReyMask.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		F13951321520C46200AF8244 /* ReyAlert_autoDisconnect */ = {
+			isa = PBXGroup;
+			children = (
+				F139512C1520C44200AF8244 /* ReyAutoDisconnAlert.h */,
+				F139512F1520C44D00AF8244 /* ReyAutoDisconnAlert.m */,
+				F13951251520C41E00AF8244 /* ReyAlert_autoDisconnect.h */,
+				F13951291520C43300AF8244 /* ReyAlert_autoDisconnect.m */,
+			);
+			name = ReyAlert_autoDisconnect;
+			sourceTree = "<group>";
+		};
+		F13A69C91519814E009E2DDF /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				F13A69D7151981C9009E2DDF /* core */,
+				F13A69D815198277009E2DDF /* ReyNetWorkStatus.h */,
+				F13A69D915198277009E2DDF /* ReyNetWorkStatus.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		F13A69D7151981C9009E2DDF /* core */ = {
+			isa = PBXGroup;
+			children = (
+				F13A69CB15198162009E2DDF /* Reachability.h */,
+				F13A69CC15198162009E2DDF /* Reachability.m */,
+			);
+			name = core;
+			sourceTree = "<group>";
+		};
+		F144D2F014C3F44A000B69EA /* ReyRotationView */ = {
+			isa = PBXGroup;
+			children = (
+				F144D2F214C3F461000B69EA /* ReyRotationView.h */,
+				F144D2F314C3F461000B69EA /* ReyRotationView.m */,
+			);
+			name = ReyRotationView;
+			sourceTree = "<group>";
+		};
+		F144D31414C3FB58000B69EA /* ReyHelp */ = {
+			isa = PBXGroup;
+			children = (
+				F144D31614C3FBDF000B69EA /* ReyHelpView.h */,
+				F144D31714C3FBDF000B69EA /* ReyHelpView.m */,
+			);
+			name = ReyHelp;
+			sourceTree = "<group>";
+		};
+		F14C206714DBA337009240C5 /* Rotation Button */ = {
+			isa = PBXGroup;
+			children = (
+				F14C206814DBA35E009240C5 /* ReyButton_rotation.h */,
+				F14C206914DBA35E009240C5 /* ReyButton_rotation.m */,
+			);
+			name = "Rotation Button";
+			sourceTree = "<group>";
+		};
+		F1506D8114E0ED880071FB73 /* ReySteeringWheel */ = {
+			isa = PBXGroup;
+			children = (
+				F1506D8314E0EDC00071FB73 /* ReySteeringWheel.h */,
+				F1506D8414E0EDC00071FB73 /* ReySteeringWheel.m */,
+			);
+			name = ReySteeringWheel;
+			sourceTree = "<group>";
+		};
+		F154B914165DF926005FD947 /* ReyFilter */ = {
+			isa = PBXGroup;
+			children = (
+				F154B916165DF949005FD947 /* ReyFilter.h */,
+				F154B917165DF949005FD947 /* ReyFilter.m */,
+				F154B91C165DFE03005FD947 /* SubFilter */,
+			);
+			name = ReyFilter;
+			sourceTree = "<group>";
+		};
+		F154B91C165DFE03005FD947 /* SubFilter */ = {
+			isa = PBXGroup;
+			children = (
+				F154B923165DFEC9005FD947 /* ReyARBG.h */,
+				F154B92A165E036E005FD947 /* ReyARBG.m */,
+				F154B91D165DFE22005FD947 /* ReyFilter_smooth.h */,
+				F154B91E165DFE22005FD947 /* ReyFilter_smooth.m */,
+				F154B933165F0AF3005FD947 /* ReyFilter_rainbow.h */,
+				F154B934165F0AF3005FD947 /* ReyFilter_rainbow.m */,
+				F154B93D165F413D005FD947 /* ReyFilter_sharpen.h */,
+				F154B93E165F413D005FD947 /* ReyFilter_sharpen.m */,
+			);
+			name = SubFilter;
+			sourceTree = "<group>";
+		};
+		F155171115F98FA3007E6456 /* AzDG */ = {
+			isa = PBXGroup;
+			children = (
+				F155171315F98FCA007E6456 /* AzDG.h */,
+				F155171415F98FCA007E6456 /* AzDG.m */,
+			);
+			name = AzDG;
+			sourceTree = "<group>";
+		};
+		F155171F15F99411007E6456 /* CTMBase64 */ = {
+			isa = PBXGroup;
+			children = (
+				F155172015F99420007E6456 /* GTMBase64.h */,
+				F155172115F99420007E6456 /* GTMBase64.m */,
+				F155172215F99420007E6456 /* GTMDefines.h */,
+			);
+			name = CTMBase64;
+			sourceTree = "<group>";
+		};
+		F15B76941495CD7D004425EE /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				F116408216CF6B2300485FAD /* ReyThreadManager */,
+				F13A69C91519814E009E2DDF /* Reachability */,
+				F15B769B1495CF2F004425EE /* Socket */,
+				F15B769A1495CF13004425EE /* URL */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		F15B769A1495CF13004425EE /* URL */ = {
+			isa = PBXGroup;
+			children = (
+				F12D6420151C47E9007DFA5C /* DownloadQueue */,
+				F15B76961495CD93004425EE /* ReyDownload.h */,
+				F15B76971495CD93004425EE /* ReyDownload.m */,
+				F1D32C4314960E0300C0D512 /* ReyDownload_Post.h */,
+				F1D32C4414960E0300C0D512 /* ReyDownload_Post.m */,
+				F12D309315206B120022A198 /* ReyDownload_cache.h */,
+				F12D309415206B120022A198 /* ReyDownload_cache.m */,
+				F10F474915CA7D91000C0B89 /* ReyDownload_soap.h */,
+				F10F474A15CA7D91000C0B89 /* ReyDownload_soap.m */,
+			);
+			name = URL;
+			sourceTree = "<group>";
+		};
+		F15B769B1495CF2F004425EE /* Socket */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Socket;
+			sourceTree = "<group>";
+		};
+		F160098F15DFA41800C193D9 /* ReyBar */ = {
+			isa = PBXGroup;
+			children = (
+				F160099115DFA42F00C193D9 /* ReyBar.h */,
+				F160099215DFA42F00C193D9 /* ReyBar.m */,
+			);
+			name = ReyBar;
+			sourceTree = "<group>";
+		};
+		F165F114147DF4E100EA1F00 = {
+			isa = PBXGroup;
+			children = (
+				F165F124147DF4E100EA1F00 /* ReyCore */,
+				F165F121147DF4E100EA1F00 /* Frameworks */,
+				F165F120147DF4E100EA1F00 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F165F120147DF4E100EA1F00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F165F11F147DF4E100EA1F00 /* libReyCore.a */,
+				F18B3BE114F25CC50041865F /* libReyCore copy.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F165F121147DF4E100EA1F00 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F190C62815EF8D670066DF6E /* Security.framework */,
+				F13A69D4151981AA009E2DDF /* SystemConfiguration.framework */,
+				F18B3C1214F2676B0041865F /* libiconv.dylib */,
+				F10497801570CA0E00B4D7F7 /* CoreFoundation.framework */,
+				F1A9EBF114F268A100561BA3 /* QuartzCore.framework */,
+				F18B3C1314F2676B0041865F /* AVFoundation.framework */,
+				F18B3C1414F2676B0041865F /* CoreVideo.framework */,
+				F18B3C1514F2676B0041865F /* CoreMedia.framework */,
+				F1FC121814DE744A003A1032 /* AudioToolbox.framework */,
+				F165F137147DF55200EA1F00 /* CoreGraphics.framework */,
+				F165F135147DF53B00EA1F00 /* UIKit.framework */,
+				F165F122147DF4E100EA1F00 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F165F124147DF4E100EA1F00 /* ReyCore */ = {
+			isa = PBXGroup;
+			children = (
+				F17D8714167044F4007B7F4F /* ReyIPAddress */,
+				F154B914165DF926005FD947 /* ReyFilter */,
+				F155171F15F99411007E6456 /* CTMBase64 */,
+				F155171115F98FA3007E6456 /* AzDG */,
+				F190C5E915EF8C7C0066DF6E /* ReyShareKit */,
+				F1E49C4615DA6548005AD0BA /* Keychain */,
+				F138906D15CFA7940066A5F9 /* Resource */,
+				F1109A4515D0BB3900DA03E7 /* MD5 */,
+				F1A2929115C95592000D0E88 /* ReyCodeXML */,
+				F1C1F2C81590616100FFAE6D /* JSON */,
+				F18B3B0614F258020041865F /* ZBarSDK */,
+				F1506D8114E0ED880071FB73 /* ReySteeringWheel */,
+				F1FC121214DE731B003A1032 /* ReyCommon */,
+				F1DDB91714A4B04D00529BD6 /* CoreMotion */,
+				F1113FB2149775D9005E10C3 /* Alert */,
+				F1D32C661496344D00C0D512 /* XMLParser */,
+				F15B76941495CD7D004425EE /* Network */,
+				F1E98AA314C31C3F00EFF833 /* Animation */,
+				F165F12C147DF4EE00EA1F00 /* CoreEffective */,
+				F165F125147DF4E100EA1F00 /* Supporting Files */,
+			);
+			path = ReyCore;
+			sourceTree = "<group>";
+		};
+		F165F125147DF4E100EA1F00 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F165F126147DF4E100EA1F00 /* ReyCore-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F165F12C147DF4EE00EA1F00 /* CoreEffective */ = {
+			isa = PBXGroup;
+			children = (
+				F12337AC16528C9B0019B122 /* ReyScrollView */,
+				F1C377B51604BE2B00C50AA6 /* ReyImage */,
+				F160098F15DFA41800C193D9 /* ReyBar */,
+				F1670D941592B97C001DC6A5 /* ReyMapView */,
+				F1E4F4391589AB0800B181F5 /* ReyWebView */,
+				F1A370A4155B7B470028B49F /* ReyTextField */,
+				F1E08A161523335D009A7C66 /* ReyCache */,
+				F1220E8114EB4EA90094EE75 /* ReyImageView */,
+				F1E807F514C5710600F512E3 /* ReyPageControl */,
+				F144D31414C3FB58000B69EA /* ReyHelp */,
+				F18B773E14BEDBA6006390F9 /* ReyView */,
+				F1B87D1014B555110072F6A9 /* ReyRocker */,
+				F123A5C614A424930004D927 /* ReyButton */,
+				F165F13C147DF59B00EA1F00 /* ReyLabel */,
+			);
+			name = CoreEffective;
+			sourceTree = "<group>";
+		};
+		F165F13C147DF59B00EA1F00 /* ReyLabel */ = {
+			isa = PBXGroup;
+			children = (
+				F138908E15CFB7510066A5F9 /* ReyLabel_rocker.h */,
+				F138908F15CFB7510066A5F9 /* ReyLabel_rocker.m */,
+				F165F12D147DF51100EA1F00 /* ReyLabel_shadow.h */,
+				F165F12E147DF51100EA1F00 /* ReyLabel_shadow.m */,
+				F165F12F147DF51100EA1F00 /* ReyLabel_shadowExtra.h */,
+				F165F130147DF51100EA1F00 /* ReyLabel_shadowExtra.m */,
+			);
+			name = ReyLabel;
+			sourceTree = "<group>";
+		};
+		F1670D941592B97C001DC6A5 /* ReyMapView */ = {
+			isa = PBXGroup;
+			children = (
+				F1670DA21592B99A001DC6A5 /* ReyAnnotationView */,
+				F1670D961592B991001DC6A5 /* ReyLocation.h */,
+				F1670D971592B991001DC6A5 /* ReyLocation.m */,
+				F1670D981592B991001DC6A5 /* ReyMapView.h */,
+				F1670D991592B991001DC6A5 /* ReyMapView.m */,
+			);
+			name = ReyMapView;
+			sourceTree = "<group>";
+		};
+		F1670DA21592B99A001DC6A5 /* ReyAnnotationView */ = {
+			isa = PBXGroup;
+			children = (
+				F1670DA31592B9A8001DC6A5 /* I_ReyAnnotationView.h */,
+				F1670DA41592B9A8001DC6A5 /* ReyAnnotationView.h */,
+				F1670DA51592B9A8001DC6A5 /* ReyAnnotationView.m */,
+			);
+			name = ReyAnnotationView;
+			sourceTree = "<group>";
+		};
+		F16DB58114C1847F0059C279 /* ReyLoadView */ = {
+			isa = PBXGroup;
+			children = (
+				F1F8E15F1658ECCC004241B9 /* ReyBreakLoadView */,
+				F1300F7814979B87001AA8E3 /* ReyLoading.h */,
+				F1300F7914979B87001AA8E3 /* ReyLoading.m */,
+				F1A9471E15FE3BEE0029A714 /* ReyLoadView.h */,
+				F1A9471F15FE3BEE0029A714 /* ReyLoadView.m */,
+			);
+			name = ReyLoadView;
+			sourceTree = "<group>";
+		};
+		F16DB58314C184940059C279 /* error */ = {
+			isa = PBXGroup;
+			children = (
+				F1113FBA14977605005E10C3 /* ReyError.strings */,
+				F1113FB4149775ED005E10C3 /* ReyError.h */,
+				F1113FB5149775ED005E10C3 /* ReyError.m */,
+			);
+			name = error;
+			sourceTree = "<group>";
+		};
+		F16DB58514C185290059C279 /* CustomAlert */ = {
+			isa = PBXGroup;
+			children = (
+				F16DB58614C185560059C279 /* ReyCustomAlert.h */,
+				F16DB58714C185560059C279 /* ReyCustomAlert.m */,
+				F1B89C0314C45F8400D9BF7C /* ReyAlert.h */,
+				F1B89C0414C45F8400D9BF7C /* ReyAlert.m */,
+			);
+			name = CustomAlert;
+			sourceTree = "<group>";
+		};
+		F17D8714167044F4007B7F4F /* ReyIPAddress */ = {
+			isa = PBXGroup;
+			children = (
+				F17D871616704504007B7F4F /* IPAdress.h */,
+				F17D871916704514007B7F4F /* ReyIPAddress.h */,
+				F17D871A16704514007B7F4F /* ReyIPAddress.m */,
+			);
+			name = ReyIPAddress;
+			sourceTree = "<group>";
+		};
+		F18B3B0614F258020041865F /* ZBarSDK */ = {
+			isa = PBXGroup;
+			children = (
+				F18B3BE314F260610041865F /* ReyZBar.h */,
+				F18B3BE414F260610041865F /* ReyZBar.m */,
+				F182BBE9152D439B00C936ED /* libzbar.a */,
+				F182BBEB152D43AD00C936ED /* i386libzbar.a */,
+				F18B3B0714F258020041865F /* Headers */,
+			);
+			path = ZBarSDK;
+			sourceTree = "<group>";
+		};
+		F18B3B0714F258020041865F /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				F18B3B0814F258020041865F /* ZBarSDK */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		F18B3B0814F258020041865F /* ZBarSDK */ = {
+			isa = PBXGroup;
+			children = (
+				F18B3B0914F258020041865F /* zbar */,
+				F18B3B1314F258020041865F /* zbar.h */,
+				F18B3B1414F258020041865F /* ZBarCameraSimulator.h */,
+				F18B3B1514F258020041865F /* ZBarCaptureReader.h */,
+				F18B3B1614F258020041865F /* ZBarHelpController.h */,
+				F18B3B1714F258020041865F /* ZBarImage.h */,
+				F18B3B1814F258020041865F /* ZBarImageScanner.h */,
+				F18B3B1914F258020041865F /* ZBarReaderController.h */,
+				F18B3B1A14F258020041865F /* ZBarReaderView.h */,
+				F18B3B1B14F258020041865F /* ZBarReaderViewController.h */,
+				F18B3B1C14F258020041865F /* ZBarSDK.h */,
+				F18B3B1D14F258020041865F /* ZBarSymbol.h */,
+			);
+			path = ZBarSDK;
+			sourceTree = "<group>";
+		};
+		F18B3B0914F258020041865F /* zbar */ = {
+			isa = PBXGroup;
+			children = (
+				F18B3B0A14F258020041865F /* Decoder.h */,
+				F18B3B0B14F258020041865F /* Exception.h */,
+				F18B3B0C14F258020041865F /* Image.h */,
+				F18B3B0D14F258020041865F /* ImageScanner.h */,
+				F18B3B0E14F258020041865F /* Processor.h */,
+				F18B3B0F14F258020041865F /* Scanner.h */,
+				F18B3B1014F258020041865F /* Symbol.h */,
+				F18B3B1114F258020041865F /* Video.h */,
+				F18B3B1214F258020041865F /* Window.h */,
+			);
+			path = zbar;
+			sourceTree = "<group>";
+		};
+		F18B773E14BEDBA6006390F9 /* ReyView */ = {
+			isa = PBXGroup;
+			children = (
+				F16DB58114C1847F0059C279 /* ReyLoadView */,
+				F1A2455A158EED390010A611 /* ReyStarView */,
+				F1E9D07B152459C500734D69 /* ReyProcess */,
+				F10192D114DFA19E001716F2 /* ReySlipView */,
+				F1D691CD14DD33B4007B9C78 /* ReyInterchangeView */,
+				F144D2F014C3F44A000B69EA /* ReyRotationView */,
+				F1E98A9914C31C1D00EFF833 /* ReyPullView */,
+				F18B774014BEDBB1006390F9 /* ReyPopupView */,
+			);
+			name = ReyView;
+			sourceTree = "<group>";
+		};
+		F18B774014BEDBB1006390F9 /* ReyPopupView */ = {
+			isa = PBXGroup;
+			children = (
+				F18B774114BEDBC0006390F9 /* Circle */,
+			);
+			name = ReyPopupView;
+			sourceTree = "<group>";
+		};
+		F18B774114BEDBC0006390F9 /* Circle */ = {
+			isa = PBXGroup;
+			children = (
+				F18B774714BEDC02006390F9 /* ReyPopupView_circle.h */,
+				F18B774814BEDC02006390F9 /* ReyPopupView_circle.m */,
+				F18B774914BEDC02006390F9 /* ReyPopupView_circleItem.h */,
+				F18B774A14BEDC02006390F9 /* ReyPopupView_circleItem.m */,
+			);
+			name = Circle;
+			sourceTree = "<group>";
+		};
+		F190C5E915EF8C7C0066DF6E /* ReyShareKit */ = {
+			isa = PBXGroup;
+			children = (
+				F190C61915EF8D2C0066DF6E /* ReyShareKeys.h */,
+				F190C61A15EF8D2C0066DF6E /* ReyShare.h */,
+				F190C61B15EF8D2C0066DF6E /* ReyShare.m */,
+				F190C61C15EF8D2C0066DF6E /* ReyShare_OneKeyStep.h */,
+				F190C61D15EF8D2C0066DF6E /* ReyShare_OneKeyStep.m */,
+				F190C61215EF8CFE0066DF6E /* ReyEngineView */,
+				F190C60B15EF8CDF0066DF6E /* ReyEngineRequest */,
+				F190C5EB15EF8C8F0066DF6E /* ReyEngine */,
+			);
+			name = ReyShareKit;
+			sourceTree = "<group>";
+		};
+		F190C5EB15EF8C8F0066DF6E /* ReyEngine */ = {
+			isa = PBXGroup;
+			children = (
+				F190C5EC15EF8CA10066DF6E /* ReyEngineCore */,
+				F190C5F315EF8CC30066DF6E /* ReyShareEngine_sina.h */,
+				F190C5F415EF8CC30066DF6E /* ReyShareEngine_sina.m */,
+				F190C5F515EF8CC30066DF6E /* ReyShareEngine_QQ.h */,
+				F190C5F615EF8CC30066DF6E /* ReyShareEngine_QQ.m */,
+				F190C5F715EF8CC30066DF6E /* ReyShareEngine_renren.h */,
+				F190C5F815EF8CC30066DF6E /* ReyShareEngine_renren.mm */,
+				F190C5F915EF8CC30066DF6E /* ReyShareEngine_douban.h */,
+				F190C5FA15EF8CC30066DF6E /* ReyShareEngine_douban.m */,
+			);
+			name = ReyEngine;
+			sourceTree = "<group>";
+		};
+		F190C5EC15EF8CA10066DF6E /* ReyEngineCore */ = {
+			isa = PBXGroup;
+			children = (
+				F190C5ED15EF8CAF0066DF6E /* ReyShareEngine.h */,
+				F190C5EE15EF8CAF0066DF6E /* ReyShareEngine.m */,
+			);
+			name = ReyEngineCore;
+			sourceTree = "<group>";
+		};
+		F190C60B15EF8CDF0066DF6E /* ReyEngineRequest */ = {
+			isa = PBXGroup;
+			children = (
+				F190C60C15EF8CF80066DF6E /* ReyShareRequest.h */,
+				F190C60D15EF8CF80066DF6E /* ReyShareRequest.m */,
+			);
+			name = ReyEngineRequest;
+			sourceTree = "<group>";
+		};
+		F190C61215EF8CFE0066DF6E /* ReyEngineView */ = {
+			isa = PBXGroup;
+			children = (
+				F190C61315EF8D180066DF6E /* ReyShareView.h */,
+				F190C61415EF8D180066DF6E /* ReyShareView.m */,
+			);
+			name = ReyEngineView;
+			sourceTree = "<group>";
+		};
+		F1A2455A158EED390010A611 /* ReyStarView */ = {
+			isa = PBXGroup;
+			children = (
+				F1A2455C158EED660010A611 /* ReyRatingView.h */,
+				F1A2455D158EED660010A611 /* ReyRatingView.m */,
+			);
+			name = ReyStarView;
+			sourceTree = "<group>";
+		};
+		F1A2929115C95592000D0E88 /* ReyCodeXML */ = {
+			isa = PBXGroup;
+			children = (
+				F1A2929315C955A0000D0E88 /* ReyCodeXML.h */,
+				F1A2929415C955A0000D0E88 /* ReyCodeXML.m */,
+			);
+			name = ReyCodeXML;
+			sourceTree = "<group>";
+		};
+		F1A370A4155B7B470028B49F /* ReyTextField */ = {
+			isa = PBXGroup;
+			children = (
+				F1A3709D155B7A6A0028B49F /* ReyTextField.h */,
+				F1A3709E155B7A6A0028B49F /* ReyTextField.m */,
+			);
+			name = ReyTextField;
+			sourceTree = "<group>";
+		};
+		F1B87D1014B555110072F6A9 /* ReyRocker */ = {
+			isa = PBXGroup;
+			children = (
+				F1B87D1214B555AD0072F6A9 /* ReyRockerEvent.h */,
+				F1B87D1314B555AD0072F6A9 /* ReyRockerEvent.m */,
+				F1E8078414C520DC00F512E3 /* ReyRockerEvent_4.h */,
+				F1E8078514C520DC00F512E3 /* ReyRockerEvent_4.m */,
+			);
+			name = ReyRocker;
+			sourceTree = "<group>";
+		};
+		F1C1B2901535545500B2A94B /* ReyAlert_outGame */ = {
+			isa = PBXGroup;
+			children = (
+				F1C1B2911535549E00B2A94B /* ReyAlert_outGame.h */,
+				F1C1B2921535549E00B2A94B /* ReyAlert_outGame.m */,
+				F1C1B2931535549E00B2A94B /* ReyOutGameAlert.h */,
+				F1C1B2941535549E00B2A94B /* ReyOutGameAlert.m */,
+			);
+			name = ReyAlert_outGame;
+			sourceTree = "<group>";
+		};
+		F1C1F2C81590616100FFAE6D /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				F1C1F2CA1590616E00FFAE6D /* JSON.h */,
+				F1C1F2CB1590616E00FFAE6D /* NSObject+SBJSON.h */,
+				F1C1F2CC1590616E00FFAE6D /* NSObject+SBJSON.m */,
+				F1C1F2CD1590616E00FFAE6D /* NSString+SBJSON.h */,
+				F1C1F2CE1590616E00FFAE6D /* NSString+SBJSON.m */,
+				F1C1F2CF1590616E00FFAE6D /* SBJSON.h */,
+				F1C1F2D01590616E00FFAE6D /* SBJSON.m */,
+				F1C1F2D11590616E00FFAE6D /* SBJsonBase.h */,
+				F1C1F2D21590616E00FFAE6D /* SBJsonBase.m */,
+				F1C1F2D31590616E00FFAE6D /* SBJsonParser.h */,
+				F1C1F2D41590616E00FFAE6D /* SBJsonParser.m */,
+				F1C1F2D51590616E00FFAE6D /* SBJsonWriter.h */,
+				F1C1F2D61590616E00FFAE6D /* SBJsonWriter.m */,
+			);
+			name = JSON;
+			sourceTree = "<group>";
+		};
+		F1C377B51604BE2B00C50AA6 /* ReyImage */ = {
+			isa = PBXGroup;
+			children = (
+				F1C377B71604BE3B00C50AA6 /* AFUIImageReflection.h */,
+			);
+			name = ReyImage;
+			sourceTree = "<group>";
+		};
+		F1D32C661496344D00C0D512 /* XMLParser */ = {
+			isa = PBXGroup;
+			children = (
+				F1F5D0521498331000D55A6C /* GODClient */,
+				F1D32C721496347400C0D512 /* CoreParser */,
+			);
+			name = XMLParser;
+			sourceTree = "<group>";
+		};
+		F1D32C721496347400C0D512 /* CoreParser */ = {
+			isa = PBXGroup;
+			children = (
+				F1D32C6A1496346E00C0D512 /* ReyXMLParser.h */,
+				F1D32C6B1496346E00C0D512 /* ReyXMLParser.m */,
+			);
+			name = CoreParser;
+			sourceTree = "<group>";
+		};
+		F1D691CD14DD33B4007B9C78 /* ReyInterchangeView */ = {
+			isa = PBXGroup;
+			children = (
+				F1D691CF14DD33D7007B9C78 /* ReyInterchangeView.h */,
+				F1D691D014DD33D7007B9C78 /* ReyInterchangeView.m */,
+				F1D691D114DD33D7007B9C78 /* ReyInterchangeView_moveItem.h */,
+				F1D691D214DD33D7007B9C78 /* ReyInterchangeView_moveItem.m */,
+			);
+			name = ReyInterchangeView;
+			sourceTree = "<group>";
+		};
+		F1DDB91714A4B04D00529BD6 /* CoreMotion */ = {
+			isa = PBXGroup;
+			children = (
+				F1DDB91914A4B05D00529BD6 /* ReyCoreMotion.h */,
+				F1DDB91A14A4B05D00529BD6 /* ReyCoreMotion.m */,
+			);
+			name = CoreMotion;
+			sourceTree = "<group>";
+		};
+		F1E08A161523335D009A7C66 /* ReyCache */ = {
+			isa = PBXGroup;
+			children = (
+				F1E08A171523337E009A7C66 /* ReyCache.h */,
+				F1E08A181523337E009A7C66 /* ReyCache.m */,
+			);
+			name = ReyCache;
+			sourceTree = "<group>";
+		};
+		F1E49C4615DA6548005AD0BA /* Keychain */ = {
+			isa = PBXGroup;
+			children = (
+				F1E49C4815DA6572005AD0BA /* SFHFKeychainUtils.h */,
+				F1E49C4915DA6572005AD0BA /* SFHFKeychainUtils.m */,
+			);
+			name = Keychain;
+			sourceTree = "<group>";
+		};
+		F1E4F4391589AB0800B181F5 /* ReyWebView */ = {
+			isa = PBXGroup;
+			children = (
+				F1E4F4431589AB4A00B181F5 /* ReyWebView.h */,
+				F1E4F4441589AB4A00B181F5 /* ReyWebView.m */,
+				F1E4F4451589AB4A00B181F5 /* ReyWebViewController.h */,
+				F1E4F4461589AB4A00B181F5 /* ReyWebViewController.m */,
+				F1E4F4471589AB4A00B181F5 /* ReyWebViewController.xib */,
+			);
+			name = ReyWebView;
+			sourceTree = "<group>";
+		};
+		F1E807F514C5710600F512E3 /* ReyPageControl */ = {
+			isa = PBXGroup;
+			children = (
+				F1E807FA14C571A900F512E3 /* ReyPageControl.h */,
+				F1E807FB14C571A900F512E3 /* ReyPageControl.m */,
+			);
+			name = ReyPageControl;
+			sourceTree = "<group>";
+		};
+		F1E98A9914C31C1D00EFF833 /* ReyPullView */ = {
+			isa = PBXGroup;
+			children = (
+				F1E98A9B14C31C2E00EFF833 /* ReyPullView.h */,
+				F1E98A9C14C31C2E00EFF833 /* ReyPullView.m */,
+				F15C128914D7EA3400677ED5 /* ReyPullView_customMoveBtn.h */,
+				F15C128A14D7EA3400677ED5 /* ReyPullView_customMoveBtn.m */,
+				F14FD3F514C416DA0048BF61 /* ReyPullView_multiMoveBtn.h */,
+				F14FD3F614C416DA0048BF61 /* ReyPullView_multiMoveBtn.m */,
+				F1E98A9D14C31C2E00EFF833 /* ReyPullView_moveBtn.h */,
+				F1E98A9E14C31C2E00EFF833 /* ReyPullView_moveBtn.m */,
+			);
+			name = ReyPullView;
+			sourceTree = "<group>";
+		};
+		F1E98AA314C31C3F00EFF833 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				F1E98AA414C31C5300EFF833 /* ReyAnimation.h */,
+				F1E98AA514C31C5300EFF833 /* ReyAnimation.m */,
+			);
+			name = Animation;
+			sourceTree = "<group>";
+		};
+		F1E9D07B152459C500734D69 /* ReyProcess */ = {
+			isa = PBXGroup;
+			children = (
+				F1E9D07D152459E200734D69 /* ReyProcess.h */,
+				F1E9D07E152459E200734D69 /* ReyProcess.m */,
+			);
+			name = ReyProcess;
+			sourceTree = "<group>";
+		};
+		F1F5D0521498331000D55A6C /* GODClient */ = {
+			isa = PBXGroup;
+			children = (
+				F1D32C731496380300C0D512 /* ReyXMLParser_GODLogin.h */,
+				F1D32C741496380300C0D512 /* ReyXMLParser_GODLogin.m */,
+				F1F5D0541498334700D55A6C /* ReyXMLParser_autoUpdate.h */,
+				F1F5D0551498334700D55A6C /* ReyXMLParser_autoUpdate.m */,
+				F159E81E1498A8DA00F8C5B3 /* ReyXMLParser_keys.h */,
+				F159E81F1498A8DA00F8C5B3 /* ReyXMLParser_keys.m */,
+				F1899546149C65D7002C5A0A /* ReyXMLParser_GetGid.h */,
+				F1899547149C65D7002C5A0A /* ReyXMLParser_GetGid.m */,
+				F1E08A0F152332E3009A7C66 /* ReyXMLParser_imgurl.h */,
+				F1E08A10152332E3009A7C66 /* ReyXMLParser_imgurl.m */,
+			);
+			name = GODClient;
+			sourceTree = "<group>";
+		};
+		F1F8E15F1658ECCC004241B9 /* ReyBreakLoadView */ = {
+			isa = PBXGroup;
+			children = (
+				F1F8E1611658ECE6004241B9 /* ReyBreakLoadView.h */,
+				F1F8E1621658ECE6004241B9 /* ReyBreakLoadView.m */,
+				F1F8E1631658ECE6004241B9 /* Rey_BLV_item.h */,
+				F1F8E1641658ECE6004241B9 /* Rey_BLV_item.m */,
+			);
+			name = ReyBreakLoadView;
+			sourceTree = "<group>";
+		};
+		F1FC121214DE731B003A1032 /* ReyCommon */ = {
+			isa = PBXGroup;
+			children = (
+				F1FC121414DE733B003A1032 /* ReyCommon.h */,
+				F1FC121514DE733B003A1032 /* ReyCommon.m */,
+			);
+			name = ReyCommon;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F165F11D147DF4E100EA1F00 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F165F131147DF51100EA1F00 /* ReyLabel_shadow.h in Headers */,
+				F165F133147DF51100EA1F00 /* ReyLabel_shadowExtra.h in Headers */,
+				F15B76981495CD93004425EE /* ReyDownload.h in Headers */,
+				F1D32C4514960E0300C0D512 /* ReyDownload_Post.h in Headers */,
+				F1D32C6E1496346E00C0D512 /* ReyXMLParser.h in Headers */,
+				F1D32C751496380300C0D512 /* ReyXMLParser_GODLogin.h in Headers */,
+				F1113FB6149775ED005E10C3 /* ReyError.h in Headers */,
+				F1300F7A14979B87001AA8E3 /* ReyLoading.h in Headers */,
+				F1F5D0561498334700D55A6C /* ReyXMLParser_autoUpdate.h in Headers */,
+				F159E8201498A8DA00F8C5B3 /* ReyXMLParser_keys.h in Headers */,
+				F1899548149C65D7002C5A0A /* ReyXMLParser_GetGid.h in Headers */,
+				F123A5CD14A424E50004D927 /* IrregularShapedButton.h in Headers */,
+				F123A5CF14A424E50004D927 /* UIImage-Alpha.h in Headers */,
+				F1DDB91B14A4B05D00529BD6 /* ReyCoreMotion.h in Headers */,
+				F1B87D1414B555AD0072F6A9 /* ReyRockerEvent.h in Headers */,
+				F18B774B14BEDC02006390F9 /* ReyPopupView_circle.h in Headers */,
+				F18B774D14BEDC02006390F9 /* ReyPopupView_circleItem.h in Headers */,
+				F16DB58814C185560059C279 /* ReyCustomAlert.h in Headers */,
+				F1E98A9F14C31C2E00EFF833 /* ReyPullView.h in Headers */,
+				F1E98AA114C31C2E00EFF833 /* ReyPullView_moveBtn.h in Headers */,
+				F1E98AA614C31C5300EFF833 /* ReyAnimation.h in Headers */,
+				F144D2F414C3F461000B69EA /* ReyRotationView.h in Headers */,
+				F144D31814C3FBDF000B69EA /* ReyHelpView.h in Headers */,
+				F14FD3F714C416DA0048BF61 /* ReyPullView_multiMoveBtn.h in Headers */,
+				F1B89C0514C45F8400D9BF7C /* ReyAlert.h in Headers */,
+				F1E8078614C520DC00F512E3 /* ReyRockerEvent_4.h in Headers */,
+				F1E807FC14C571A900F512E3 /* ReyPageControl.h in Headers */,
+				F15C128B14D7EA3400677ED5 /* ReyPullView_customMoveBtn.h in Headers */,
+				F14C206A14DBA35E009240C5 /* ReyButton_rotation.h in Headers */,
+				F1D691D314DD33D7007B9C78 /* ReyInterchangeView.h in Headers */,
+				F1D691D514DD33D7007B9C78 /* ReyInterchangeView_moveItem.h in Headers */,
+				F1FC121614DE733B003A1032 /* ReyCommon.h in Headers */,
+				F10192D514DFA1CD001716F2 /* ReySlipView.h in Headers */,
+				F1506D8514E0EDC00071FB73 /* ReySteeringWheel.h in Headers */,
+				F1220E8514EB4EC70094EE75 /* ReyImageView.h in Headers */,
+				F18B3B2314F258030041865F /* Decoder.h in Headers */,
+				F18B3B2414F258030041865F /* Exception.h in Headers */,
+				F18B3B2514F258030041865F /* Image.h in Headers */,
+				F18B3B2614F258030041865F /* ImageScanner.h in Headers */,
+				F18B3B2714F258030041865F /* Processor.h in Headers */,
+				F18B3B2814F258030041865F /* Scanner.h in Headers */,
+				F18B3B2914F258030041865F /* Symbol.h in Headers */,
+				F18B3B2A14F258030041865F /* Video.h in Headers */,
+				F18B3B2B14F258030041865F /* Window.h in Headers */,
+				F18B3B2C14F258030041865F /* zbar.h in Headers */,
+				F18B3B2D14F258030041865F /* ZBarCameraSimulator.h in Headers */,
+				F18B3B2E14F258030041865F /* ZBarCaptureReader.h in Headers */,
+				F18B3B2F14F258030041865F /* ZBarHelpController.h in Headers */,
+				F18B3B3014F258030041865F /* ZBarImage.h in Headers */,
+				F18B3B3114F258030041865F /* ZBarImageScanner.h in Headers */,
+				F18B3B3214F258030041865F /* ZBarReaderController.h in Headers */,
+				F18B3B3314F258030041865F /* ZBarReaderView.h in Headers */,
+				F18B3B3414F258030041865F /* ZBarReaderViewController.h in Headers */,
+				F18B3B3514F258030041865F /* ZBarSDK.h in Headers */,
+				F18B3B3614F258030041865F /* ZBarSymbol.h in Headers */,
+				F18B3BE514F260620041865F /* ReyZBar.h in Headers */,
+				F13A69CD15198162009E2DDF /* Reachability.h in Headers */,
+				F13A69DA15198277009E2DDF /* ReyNetWorkStatus.h in Headers */,
+				F12D309515206B120022A198 /* ReyDownload_cache.h in Headers */,
+				F13951261520C41E00AF8244 /* ReyAlert_autoDisconnect.h in Headers */,
+				F139512D1520C44200AF8244 /* ReyAutoDisconnAlert.h in Headers */,
+				F1F31B371522A6370048A37A /* ReyDownloadQueue_cache.h in Headers */,
+				F1E08A11152332E3009A7C66 /* ReyXMLParser_imgurl.h in Headers */,
+				F1E08A191523337E009A7C66 /* ReyCache.h in Headers */,
+				F1E9D07F152459E200734D69 /* ReyProcess.h in Headers */,
+				F1C1B2951535549E00B2A94B /* ReyAlert_outGame.h in Headers */,
+				F1C1B2991535549E00B2A94B /* ReyOutGameAlert.h in Headers */,
+				F1A3709F155B7A6A0028B49F /* ReyTextField.h in Headers */,
+				F1E4F4481589AB4A00B181F5 /* ReyWebView.h in Headers */,
+				F1E4F44C1589AB4A00B181F5 /* ReyWebViewController.h in Headers */,
+				F1A2455E158EED660010A611 /* ReyRatingView.h in Headers */,
+				F1C1F2D71590616E00FFAE6D /* JSON.h in Headers */,
+				F1C1F2D91590616E00FFAE6D /* NSObject+SBJSON.h in Headers */,
+				F1C1F2DD1590616E00FFAE6D /* NSString+SBJSON.h in Headers */,
+				F1C1F2E11590616E00FFAE6D /* SBJSON.h in Headers */,
+				F1C1F2E51590616E00FFAE6D /* SBJsonBase.h in Headers */,
+				F1C1F2E91590616E00FFAE6D /* SBJsonParser.h in Headers */,
+				F1C1F2ED1590616E00FFAE6D /* SBJsonWriter.h in Headers */,
+				F1670D9A1592B991001DC6A5 /* ReyLocation.h in Headers */,
+				F1670D9E1592B991001DC6A5 /* ReyMapView.h in Headers */,
+				F1670DA61592B9A8001DC6A5 /* I_ReyAnnotationView.h in Headers */,
+				F1670DA81592B9A8001DC6A5 /* ReyAnnotationView.h in Headers */,
+				F1A2929515C955A0000D0E88 /* ReyCodeXML.h in Headers */,
+				F10F474B15CA7D91000C0B89 /* ReyDownload_soap.h in Headers */,
+				F138909015CFB7510066A5F9 /* ReyLabel_rocker.h in Headers */,
+				F1109A4915D0BB6700DA03E7 /* ReyMD5.h in Headers */,
+				F154900B15D10D5F00400EAD /* MD5.h in Headers */,
+				F1E49C4A15DA6572005AD0BA /* SFHFKeychainUtils.h in Headers */,
+				F160099315DFA42F00C193D9 /* ReyBar.h in Headers */,
+				F190C5EF15EF8CAF0066DF6E /* ReyShareEngine.h in Headers */,
+				F190C5FB15EF8CC30066DF6E /* ReyShareEngine_sina.h in Headers */,
+				F190C5FF15EF8CC30066DF6E /* ReyShareEngine_QQ.h in Headers */,
+				F190C60315EF8CC30066DF6E /* ReyShareEngine_renren.h in Headers */,
+				F190C60715EF8CC30066DF6E /* ReyShareEngine_douban.h in Headers */,
+				F190C60E15EF8CF80066DF6E /* ReyShareRequest.h in Headers */,
+				F190C61515EF8D180066DF6E /* ReyShareView.h in Headers */,
+				F190C61E15EF8D2C0066DF6E /* ReyShareKeys.h in Headers */,
+				F190C62015EF8D2C0066DF6E /* ReyShare.h in Headers */,
+				F190C62415EF8D2C0066DF6E /* ReyShare_OneKeyStep.h in Headers */,
+				F155171515F98FCA007E6456 /* AzDG.h in Headers */,
+				F155172315F99420007E6456 /* GTMBase64.h in Headers */,
+				F155172715F99420007E6456 /* GTMDefines.h in Headers */,
+				F1A9471715FE21960029A714 /* ReyImageView_down.h in Headers */,
+				F1A9472015FE3BEE0029A714 /* ReyLoadView.h in Headers */,
+				F1C377B91604BE3B00C50AA6 /* AFUIImageReflection.h in Headers */,
+				F12337AF16528CB20019B122 /* ReyScrollView.h in Headers */,
+				F12337C4165344270019B122 /* ReyScrollView_detailView.h in Headers */,
+				F1F8E1651658ECE6004241B9 /* ReyBreakLoadView.h in Headers */,
+				F1F8E1691658ECE6004241B9 /* Rey_BLV_item.h in Headers */,
+				F154B918165DF949005FD947 /* ReyFilter.h in Headers */,
+				F154B91F165DFE22005FD947 /* ReyFilter_smooth.h in Headers */,
+				F154B925165DFEC9005FD947 /* ReyARBG.h in Headers */,
+				F154B935165F0AF3005FD947 /* ReyFilter_rainbow.h in Headers */,
+				F154B93F165F413D005FD947 /* ReyFilter_sharpen.h in Headers */,
+				F17D871716704504007B7F4F /* IPAdress.h in Headers */,
+				F17D871B16704514007B7F4F /* ReyIPAddress.h in Headers */,
+				F116408816CF6B3800485FAD /* ReyDownloadManager.h in Headers */,
+				F116408C16CF6B3800485FAD /* ReyDownloadItem_private.h in Headers */,
+				F116408E16CF6B3800485FAD /* ReyDownloadItem.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F18B3BA614F25CC50041865F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F18B3BA714F25CC50041865F /* ReyLabel_shadow.h in Headers */,
+				F18B3BA814F25CC50041865F /* ReyLabel_shadowExtra.h in Headers */,
+				F18B3BA914F25CC50041865F /* ReyDownload.h in Headers */,
+				F18B3BAA14F25CC50041865F /* ReyDownload_Post.h in Headers */,
+				F18B3BAB14F25CC50041865F /* ReyXMLParser.h in Headers */,
+				F18B3BAC14F25CC50041865F /* ReyXMLParser_GODLogin.h in Headers */,
+				F18B3BAD14F25CC50041865F /* ReyError.h in Headers */,
+				F18B3BAE14F25CC50041865F /* ReyLoading.h in Headers */,
+				F18B3BAF14F25CC50041865F /* ReyXMLParser_autoUpdate.h in Headers */,
+				F18B3BB014F25CC50041865F /* ReyXMLParser_keys.h in Headers */,
+				F18B3BB114F25CC50041865F /* ReyXMLParser_GetGid.h in Headers */,
+				F18B3BB214F25CC50041865F /* IrregularShapedButton.h in Headers */,
+				F18B3BB314F25CC50041865F /* UIImage-Alpha.h in Headers */,
+				F18B3BB414F25CC50041865F /* ReyCoreMotion.h in Headers */,
+				F18B3BB514F25CC50041865F /* ReyRockerEvent.h in Headers */,
+				F18B3BB614F25CC50041865F /* ReyPopupView_circle.h in Headers */,
+				F18B3BB714F25CC50041865F /* ReyPopupView_circleItem.h in Headers */,
+				F18B3BB814F25CC50041865F /* ReyCustomAlert.h in Headers */,
+				F18B3BB914F25CC50041865F /* ReyPullView.h in Headers */,
+				F18B3BBA14F25CC50041865F /* ReyPullView_moveBtn.h in Headers */,
+				F18B3BBB14F25CC50041865F /* ReyAnimation.h in Headers */,
+				F18B3BBC14F25CC50041865F /* ReyRotationView.h in Headers */,
+				F18B3BBD14F25CC50041865F /* ReyHelpView.h in Headers */,
+				F18B3BBE14F25CC50041865F /* ReyPullView_multiMoveBtn.h in Headers */,
+				F18B3BBF14F25CC50041865F /* ReyAlert.h in Headers */,
+				F18B3BC014F25CC50041865F /* ReyRockerEvent_4.h in Headers */,
+				F18B3BC114F25CC50041865F /* ReyPageControl.h in Headers */,
+				F18B3BC214F25CC50041865F /* ReyPullView_customMoveBtn.h in Headers */,
+				F18B3BC314F25CC50041865F /* ReyButton_rotation.h in Headers */,
+				F18B3BC414F25CC50041865F /* ReyInterchangeView.h in Headers */,
+				F18B3BC514F25CC50041865F /* ReyInterchangeView_moveItem.h in Headers */,
+				F18B3BC614F25CC50041865F /* ReyCommon.h in Headers */,
+				F18B3BC714F25CC50041865F /* ReySlipView.h in Headers */,
+				F18B3BC814F25CC50041865F /* ReySteeringWheel.h in Headers */,
+				F18B3BC914F25CC50041865F /* ReyImageView.h in Headers */,
+				F18B3BCA14F25CC50041865F /* Decoder.h in Headers */,
+				F18B3BCB14F25CC50041865F /* Exception.h in Headers */,
+				F18B3BCC14F25CC50041865F /* Image.h in Headers */,
+				F18B3BCD14F25CC50041865F /* ImageScanner.h in Headers */,
+				F18B3BCE14F25CC50041865F /* Processor.h in Headers */,
+				F18B3BCF14F25CC50041865F /* Scanner.h in Headers */,
+				F18B3BD014F25CC50041865F /* Symbol.h in Headers */,
+				F18B3BD114F25CC50041865F /* Video.h in Headers */,
+				F18B3BD214F25CC50041865F /* Window.h in Headers */,
+				F18B3BD314F25CC50041865F /* zbar.h in Headers */,
+				F18B3BD414F25CC50041865F /* ZBarCameraSimulator.h in Headers */,
+				F18B3BD514F25CC50041865F /* ZBarCaptureReader.h in Headers */,
+				F18B3BD614F25CC50041865F /* ZBarHelpController.h in Headers */,
+				F18B3BD714F25CC50041865F /* ZBarImage.h in Headers */,
+				F18B3BD814F25CC50041865F /* ZBarImageScanner.h in Headers */,
+				F18B3BD914F25CC50041865F /* ZBarReaderController.h in Headers */,
+				F18B3BDA14F25CC50041865F /* ZBarReaderView.h in Headers */,
+				F18B3BDB14F25CC50041865F /* ZBarReaderViewController.h in Headers */,
+				F18B3BDC14F25CC50041865F /* ZBarSDK.h in Headers */,
+				F18B3BDD14F25CC50041865F /* ZBarSymbol.h in Headers */,
+				F18B3BE614F260620041865F /* ReyZBar.h in Headers */,
+				F13A69CE15198162009E2DDF /* Reachability.h in Headers */,
+				F13A69DB15198277009E2DDF /* ReyNetWorkStatus.h in Headers */,
+				F12D309615206B120022A198 /* ReyDownload_cache.h in Headers */,
+				F13951271520C41E00AF8244 /* ReyAlert_autoDisconnect.h in Headers */,
+				F139512E1520C44200AF8244 /* ReyAutoDisconnAlert.h in Headers */,
+				F1F31B381522A6370048A37A /* ReyDownloadQueue_cache.h in Headers */,
+				F1E08A12152332E3009A7C66 /* ReyXMLParser_imgurl.h in Headers */,
+				F1E08A1A1523337E009A7C66 /* ReyCache.h in Headers */,
+				F1E9D080152459E200734D69 /* ReyProcess.h in Headers */,
+				F1C1B2961535549E00B2A94B /* ReyAlert_outGame.h in Headers */,
+				F1C1B29A1535549E00B2A94B /* ReyOutGameAlert.h in Headers */,
+				F1A370A0155B7A6A0028B49F /* ReyTextField.h in Headers */,
+				F1E4F4491589AB4A00B181F5 /* ReyWebView.h in Headers */,
+				F1E4F44D1589AB4A00B181F5 /* ReyWebViewController.h in Headers */,
+				F1A2455F158EED660010A611 /* ReyRatingView.h in Headers */,
+				F1C1F2D81590616E00FFAE6D /* JSON.h in Headers */,
+				F1C1F2DA1590616E00FFAE6D /* NSObject+SBJSON.h in Headers */,
+				F1C1F2DE1590616E00FFAE6D /* NSString+SBJSON.h in Headers */,
+				F1C1F2E21590616E00FFAE6D /* SBJSON.h in Headers */,
+				F1C1F2E61590616E00FFAE6D /* SBJsonBase.h in Headers */,
+				F1C1F2EA1590616E00FFAE6D /* SBJsonParser.h in Headers */,
+				F1C1F2EE1590616E00FFAE6D /* SBJsonWriter.h in Headers */,
+				F1670D9B1592B991001DC6A5 /* ReyLocation.h in Headers */,
+				F1670D9F1592B991001DC6A5 /* ReyMapView.h in Headers */,
+				F1670DA71592B9A8001DC6A5 /* I_ReyAnnotationView.h in Headers */,
+				F1670DA91592B9A8001DC6A5 /* ReyAnnotationView.h in Headers */,
+				F1A2929615C955A0000D0E88 /* ReyCodeXML.h in Headers */,
+				F10F474C15CA7D91000C0B89 /* ReyDownload_soap.h in Headers */,
+				F138909115CFB7510066A5F9 /* ReyLabel_rocker.h in Headers */,
+				F1109A4A15D0BB6700DA03E7 /* ReyMD5.h in Headers */,
+				F154900C15D10D5F00400EAD /* MD5.h in Headers */,
+				F1E49C4B15DA6572005AD0BA /* SFHFKeychainUtils.h in Headers */,
+				F160099415DFA42F00C193D9 /* ReyBar.h in Headers */,
+				F190C5F015EF8CAF0066DF6E /* ReyShareEngine.h in Headers */,
+				F190C5FC15EF8CC30066DF6E /* ReyShareEngine_sina.h in Headers */,
+				F190C60015EF8CC30066DF6E /* ReyShareEngine_QQ.h in Headers */,
+				F190C60415EF8CC30066DF6E /* ReyShareEngine_renren.h in Headers */,
+				F190C60815EF8CC30066DF6E /* ReyShareEngine_douban.h in Headers */,
+				F190C60F15EF8CF80066DF6E /* ReyShareRequest.h in Headers */,
+				F190C61615EF8D180066DF6E /* ReyShareView.h in Headers */,
+				F190C61F15EF8D2C0066DF6E /* ReyShareKeys.h in Headers */,
+				F190C62115EF8D2C0066DF6E /* ReyShare.h in Headers */,
+				F190C62515EF8D2C0066DF6E /* ReyShare_OneKeyStep.h in Headers */,
+				F155171615F98FCA007E6456 /* AzDG.h in Headers */,
+				F155172415F99420007E6456 /* GTMBase64.h in Headers */,
+				F155172815F99420007E6456 /* GTMDefines.h in Headers */,
+				F1A9471815FE21960029A714 /* ReyImageView_down.h in Headers */,
+				F1A9472115FE3BEE0029A714 /* ReyLoadView.h in Headers */,
+				F1C377BA1604BE3B00C50AA6 /* AFUIImageReflection.h in Headers */,
+				F12337B016528CB20019B122 /* ReyScrollView.h in Headers */,
+				F12337C5165344270019B122 /* ReyScrollView_detailView.h in Headers */,
+				F1F8E1661658ECE6004241B9 /* ReyBreakLoadView.h in Headers */,
+				F1F8E16A1658ECE6004241B9 /* Rey_BLV_item.h in Headers */,
+				F154B919165DF949005FD947 /* ReyFilter.h in Headers */,
+				F154B920165DFE22005FD947 /* ReyFilter_smooth.h in Headers */,
+				F154B926165DFEC9005FD947 /* ReyARBG.h in Headers */,
+				F154B936165F0AF3005FD947 /* ReyFilter_rainbow.h in Headers */,
+				F154B940165F413D005FD947 /* ReyFilter_sharpen.h in Headers */,
+				F17D871816704504007B7F4F /* IPAdress.h in Headers */,
+				F17D871C16704514007B7F4F /* ReyIPAddress.h in Headers */,
+				F116408916CF6B3800485FAD /* ReyDownloadManager.h in Headers */,
+				F116408D16CF6B3800485FAD /* ReyDownloadItem_private.h in Headers */,
+				F116408F16CF6B3800485FAD /* ReyDownloadItem.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F165F11E147DF4E100EA1F00 /* ReyCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F165F129147DF4E100EA1F00 /* Build configuration list for PBXNativeTarget "ReyCore" */;
+			buildPhases = (
+				F165F11B147DF4E100EA1F00 /* Sources */,
+				F165F11C147DF4E100EA1F00 /* Frameworks */,
+				F165F11D147DF4E100EA1F00 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReyCore;
+			productName = ReyCore;
+			productReference = F165F11F147DF4E100EA1F00 /* libReyCore.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F18B3B7B14F25CC50041865F /* ReyCorei386 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F18B3BDE14F25CC50041865F /* Build configuration list for PBXNativeTarget "ReyCorei386" */;
+			buildPhases = (
+				F18B3B7C14F25CC50041865F /* Sources */,
+				F18B3BA014F25CC50041865F /* Frameworks */,
+				F18B3BA614F25CC50041865F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReyCorei386;
+			productName = ReyCore;
+			productReference = F18B3BE114F25CC50041865F /* libReyCore copy.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F165F116147DF4E100EA1F00 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = F165F119147DF4E100EA1F00 /* Build configuration list for PBXProject "ReyCore" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				"zh-Hans",
+			);
+			mainGroup = F165F114147DF4E100EA1F00;
+			productRefGroup = F165F120147DF4E100EA1F00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F165F11E147DF4E100EA1F00 /* ReyCore */,
+				F18B3B7B14F25CC50041865F /* ReyCorei386 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F165F11B147DF4E100EA1F00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F165F132147DF51100EA1F00 /* ReyLabel_shadow.m in Sources */,
+				F165F134147DF51100EA1F00 /* ReyLabel_shadowExtra.m in Sources */,
+				F15B76991495CD93004425EE /* ReyDownload.m in Sources */,
+				F1D32C4614960E0300C0D512 /* ReyDownload_Post.m in Sources */,
+				F1D32C6F1496346E00C0D512 /* ReyXMLParser.m in Sources */,
+				F1D32C761496380300C0D512 /* ReyXMLParser_GODLogin.m in Sources */,
+				F1113FB7149775ED005E10C3 /* ReyError.m in Sources */,
+				F1300F7B14979B87001AA8E3 /* ReyLoading.m in Sources */,
+				F1F5D0571498334700D55A6C /* ReyXMLParser_autoUpdate.m in Sources */,
+				F159E8211498A8DA00F8C5B3 /* ReyXMLParser_keys.m in Sources */,
+				F1899549149C65D7002C5A0A /* ReyXMLParser_GetGid.m in Sources */,
+				F123A5CE14A424E50004D927 /* IrregularShapedButton.m in Sources */,
+				F123A5D014A424E50004D927 /* UIImage-Alpha.m in Sources */,
+				F1DDB91C14A4B05D00529BD6 /* ReyCoreMotion.m in Sources */,
+				F1B87D1514B555AD0072F6A9 /* ReyRockerEvent.m in Sources */,
+				F18B774C14BEDC02006390F9 /* ReyPopupView_circle.m in Sources */,
+				F18B774E14BEDC02006390F9 /* ReyPopupView_circleItem.m in Sources */,
+				F16DB58914C185560059C279 /* ReyCustomAlert.m in Sources */,
+				F1E98AA014C31C2E00EFF833 /* ReyPullView.m in Sources */,
+				F1E98AA214C31C2E00EFF833 /* ReyPullView_moveBtn.m in Sources */,
+				F1E98AA714C31C5300EFF833 /* ReyAnimation.m in Sources */,
+				F144D2F514C3F461000B69EA /* ReyRotationView.m in Sources */,
+				F144D31914C3FBDF000B69EA /* ReyHelpView.m in Sources */,
+				F14FD3F814C416DA0048BF61 /* ReyPullView_multiMoveBtn.m in Sources */,
+				F1B89C0614C45F8400D9BF7C /* ReyAlert.m in Sources */,
+				F1E8078714C520DC00F512E3 /* ReyRockerEvent_4.m in Sources */,
+				F1E807FD14C571A900F512E3 /* ReyPageControl.m in Sources */,
+				F15C128C14D7EA3400677ED5 /* ReyPullView_customMoveBtn.m in Sources */,
+				F14C206B14DBA35E009240C5 /* ReyButton_rotation.m in Sources */,
+				F1D691D414DD33D7007B9C78 /* ReyInterchangeView.m in Sources */,
+				F1D691D614DD33D7007B9C78 /* ReyInterchangeView_moveItem.m in Sources */,
+				F1FC121714DE733B003A1032 /* ReyCommon.m in Sources */,
+				F10192D614DFA1CD001716F2 /* ReySlipView.m in Sources */,
+				F1506D8614E0EDC00071FB73 /* ReySteeringWheel.m in Sources */,
+				F1220E8614EB4EC70094EE75 /* ReyImageView.m in Sources */,
+				F18B3BE714F260620041865F /* ReyZBar.m in Sources */,
+				F13A69CF15198162009E2DDF /* Reachability.m in Sources */,
+				F13A69DC15198277009E2DDF /* ReyNetWorkStatus.m in Sources */,
+				F12D309715206B120022A198 /* ReyDownload_cache.m in Sources */,
+				F139512A1520C43300AF8244 /* ReyAlert_autoDisconnect.m in Sources */,
+				F13951301520C44D00AF8244 /* ReyAutoDisconnAlert.m in Sources */,
+				F1F31B391522A6370048A37A /* ReyDownloadQueue_cache.m in Sources */,
+				F1E08A13152332E3009A7C66 /* ReyXMLParser_imgurl.m in Sources */,
+				F1E08A1B1523337E009A7C66 /* ReyCache.m in Sources */,
+				F1E9D081152459E200734D69 /* ReyProcess.m in Sources */,
+				F1C1B2971535549E00B2A94B /* ReyAlert_outGame.m in Sources */,
+				F1C1B29B1535549E00B2A94B /* ReyOutGameAlert.m in Sources */,
+				F1A370A1155B7A6A0028B49F /* ReyTextField.m in Sources */,
+				F1E4F44A1589AB4A00B181F5 /* ReyWebView.m in Sources */,
+				F1E4F44E1589AB4A00B181F5 /* ReyWebViewController.m in Sources */,
+				F1A24560158EED660010A611 /* ReyRatingView.m in Sources */,
+				F1C1F2DB1590616E00FFAE6D /* NSObject+SBJSON.m in Sources */,
+				F1C1F2DF1590616E00FFAE6D /* NSString+SBJSON.m in Sources */,
+				F1C1F2E31590616E00FFAE6D /* SBJSON.m in Sources */,
+				F1C1F2E71590616E00FFAE6D /* SBJsonBase.m in Sources */,
+				F1C1F2EB1590616E00FFAE6D /* SBJsonParser.m in Sources */,
+				F1C1F2EF1590616E00FFAE6D /* SBJsonWriter.m in Sources */,
+				F1670D9C1592B991001DC6A5 /* ReyLocation.m in Sources */,
+				F1670DA01592B991001DC6A5 /* ReyMapView.m in Sources */,
+				F1670DAA1592B9A8001DC6A5 /* ReyAnnotationView.m in Sources */,
+				F1A2929715C955A0000D0E88 /* ReyCodeXML.m in Sources */,
+				F10F474D15CA7D91000C0B89 /* ReyDownload_soap.m in Sources */,
+				F138909215CFB7510066A5F9 /* ReyLabel_rocker.m in Sources */,
+				F1109A4B15D0BB6700DA03E7 /* ReyMD5.mm in Sources */,
+				F154900915D10D5F00400EAD /* MD5.cpp in Sources */,
+				F1E49C4C15DA6572005AD0BA /* SFHFKeychainUtils.m in Sources */,
+				F160099515DFA42F00C193D9 /* ReyBar.m in Sources */,
+				F190C5F115EF8CAF0066DF6E /* ReyShareEngine.m in Sources */,
+				F190C5FD15EF8CC30066DF6E /* ReyShareEngine_sina.m in Sources */,
+				F190C60115EF8CC30066DF6E /* ReyShareEngine_QQ.m in Sources */,
+				F190C60515EF8CC30066DF6E /* ReyShareEngine_renren.mm in Sources */,
+				F190C60915EF8CC30066DF6E /* ReyShareEngine_douban.m in Sources */,
+				F190C61015EF8CF80066DF6E /* ReyShareRequest.m in Sources */,
+				F190C61715EF8D180066DF6E /* ReyShareView.m in Sources */,
+				F190C62215EF8D2C0066DF6E /* ReyShare.m in Sources */,
+				F190C62615EF8D2C0066DF6E /* ReyShare_OneKeyStep.m in Sources */,
+				F155171715F98FCA007E6456 /* AzDG.m in Sources */,
+				F155172515F99420007E6456 /* GTMBase64.m in Sources */,
+				F1A9471915FE21960029A714 /* ReyImageView_down.m in Sources */,
+				F1A9472215FE3BEE0029A714 /* ReyLoadView.m in Sources */,
+				F12337B116528CB20019B122 /* ReyScrollView.m in Sources */,
+				F12337C6165344270019B122 /* ReyScrollView_detailView.m in Sources */,
+				F1F8E1671658ECE6004241B9 /* ReyBreakLoadView.m in Sources */,
+				F1F8E16B1658ECE6004241B9 /* Rey_BLV_item.m in Sources */,
+				F154B91A165DF949005FD947 /* ReyFilter.m in Sources */,
+				F154B921165DFE22005FD947 /* ReyFilter_smooth.m in Sources */,
+				F154B92D165E036E005FD947 /* ReyARBG.m in Sources */,
+				F154B937165F0AF3005FD947 /* ReyFilter_rainbow.m in Sources */,
+				F154B941165F413D005FD947 /* ReyFilter_sharpen.m in Sources */,
+				F17D871D16704514007B7F4F /* ReyIPAddress.m in Sources */,
+				F116408A16CF6B3800485FAD /* ReyDownloadManager.m in Sources */,
+				F116409016CF6B3800485FAD /* ReyDownloadItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F18B3B7C14F25CC50041865F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F18B3B7D14F25CC50041865F /* ReyLabel_shadow.m in Sources */,
+				F18B3B7E14F25CC50041865F /* ReyLabel_shadowExtra.m in Sources */,
+				F18B3B7F14F25CC50041865F /* ReyDownload.m in Sources */,
+				F18B3B8014F25CC50041865F /* ReyDownload_Post.m in Sources */,
+				F18B3B8114F25CC50041865F /* ReyXMLParser.m in Sources */,
+				F18B3B8214F25CC50041865F /* ReyXMLParser_GODLogin.m in Sources */,
+				F18B3B8314F25CC50041865F /* ReyError.m in Sources */,
+				F18B3B8414F25CC50041865F /* ReyLoading.m in Sources */,
+				F18B3B8514F25CC50041865F /* ReyXMLParser_autoUpdate.m in Sources */,
+				F18B3B8614F25CC50041865F /* ReyXMLParser_keys.m in Sources */,
+				F18B3B8714F25CC50041865F /* ReyXMLParser_GetGid.m in Sources */,
+				F18B3B8814F25CC50041865F /* IrregularShapedButton.m in Sources */,
+				F18B3B8914F25CC50041865F /* UIImage-Alpha.m in Sources */,
+				F18B3B8A14F25CC50041865F /* ReyCoreMotion.m in Sources */,
+				F18B3B8B14F25CC50041865F /* ReyRockerEvent.m in Sources */,
+				F18B3B8C14F25CC50041865F /* ReyPopupView_circle.m in Sources */,
+				F18B3B8D14F25CC50041865F /* ReyPopupView_circleItem.m in Sources */,
+				F18B3B8E14F25CC50041865F /* ReyCustomAlert.m in Sources */,
+				F18B3B8F14F25CC50041865F /* ReyPullView.m in Sources */,
+				F18B3B9014F25CC50041865F /* ReyPullView_moveBtn.m in Sources */,
+				F18B3B9114F25CC50041865F /* ReyAnimation.m in Sources */,
+				F18B3B9214F25CC50041865F /* ReyRotationView.m in Sources */,
+				F18B3B9314F25CC50041865F /* ReyHelpView.m in Sources */,
+				F18B3B9414F25CC50041865F /* ReyPullView_multiMoveBtn.m in Sources */,
+				F18B3B9514F25CC50041865F /* ReyAlert.m in Sources */,
+				F18B3B9614F25CC50041865F /* ReyRockerEvent_4.m in Sources */,
+				F18B3B9714F25CC50041865F /* ReyPageControl.m in Sources */,
+				F18B3B9814F25CC50041865F /* ReyPullView_customMoveBtn.m in Sources */,
+				F18B3B9914F25CC50041865F /* ReyButton_rotation.m in Sources */,
+				F18B3B9A14F25CC50041865F /* ReyInterchangeView.m in Sources */,
+				F18B3B9B14F25CC50041865F /* ReyInterchangeView_moveItem.m in Sources */,
+				F18B3B9C14F25CC50041865F /* ReyCommon.m in Sources */,
+				F18B3B9D14F25CC50041865F /* ReySlipView.m in Sources */,
+				F18B3B9E14F25CC50041865F /* ReySteeringWheel.m in Sources */,
+				F18B3B9F14F25CC50041865F /* ReyImageView.m in Sources */,
+				F18B3BE814F260620041865F /* ReyZBar.m in Sources */,
+				F13A69D015198162009E2DDF /* Reachability.m in Sources */,
+				F13A69DD15198277009E2DDF /* ReyNetWorkStatus.m in Sources */,
+				F12D309815206B120022A198 /* ReyDownload_cache.m in Sources */,
+				F139512B1520C43300AF8244 /* ReyAlert_autoDisconnect.m in Sources */,
+				F13951311520C44D00AF8244 /* ReyAutoDisconnAlert.m in Sources */,
+				F1F31B3A1522A6370048A37A /* ReyDownloadQueue_cache.m in Sources */,
+				F1E08A14152332E3009A7C66 /* ReyXMLParser_imgurl.m in Sources */,
+				F1E08A1C1523337E009A7C66 /* ReyCache.m in Sources */,
+				F1E9D082152459E200734D69 /* ReyProcess.m in Sources */,
+				F1C1B2981535549E00B2A94B /* ReyAlert_outGame.m in Sources */,
+				F1C1B29C1535549E00B2A94B /* ReyOutGameAlert.m in Sources */,
+				F1A370A2155B7A6A0028B49F /* ReyTextField.m in Sources */,
+				F1E4F44B1589AB4A00B181F5 /* ReyWebView.m in Sources */,
+				F1E4F44F1589AB4A00B181F5 /* ReyWebViewController.m in Sources */,
+				F1A24561158EED660010A611 /* ReyRatingView.m in Sources */,
+				F1C1F2DC1590616E00FFAE6D /* NSObject+SBJSON.m in Sources */,
+				F1C1F2E01590616E00FFAE6D /* NSString+SBJSON.m in Sources */,
+				F1C1F2E41590616E00FFAE6D /* SBJSON.m in Sources */,
+				F1C1F2E81590616E00FFAE6D /* SBJsonBase.m in Sources */,
+				F1C1F2EC1590616E00FFAE6D /* SBJsonParser.m in Sources */,
+				F1C1F2F01590616E00FFAE6D /* SBJsonWriter.m in Sources */,
+				F1670D9D1592B991001DC6A5 /* ReyLocation.m in Sources */,
+				F1670DA11592B991001DC6A5 /* ReyMapView.m in Sources */,
+				F1670DAB1592B9A8001DC6A5 /* ReyAnnotationView.m in Sources */,
+				F1A2929815C955A0000D0E88 /* ReyCodeXML.m in Sources */,
+				F10F474E15CA7D91000C0B89 /* ReyDownload_soap.m in Sources */,
+				F138909315CFB7510066A5F9 /* ReyLabel_rocker.m in Sources */,
+				F1109A4C15D0BB6700DA03E7 /* ReyMD5.mm in Sources */,
+				F154900A15D10D5F00400EAD /* MD5.cpp in Sources */,
+				F1E49C4D15DA6572005AD0BA /* SFHFKeychainUtils.m in Sources */,
+				F160099615DFA42F00C193D9 /* ReyBar.m in Sources */,
+				F190C5F215EF8CAF0066DF6E /* ReyShareEngine.m in Sources */,
+				F190C5FE15EF8CC30066DF6E /* ReyShareEngine_sina.m in Sources */,
+				F190C60215EF8CC30066DF6E /* ReyShareEngine_QQ.m in Sources */,
+				F190C60615EF8CC30066DF6E /* ReyShareEngine_renren.mm in Sources */,
+				F190C60A15EF8CC30066DF6E /* ReyShareEngine_douban.m in Sources */,
+				F190C61115EF8CF80066DF6E /* ReyShareRequest.m in Sources */,
+				F190C61815EF8D180066DF6E /* ReyShareView.m in Sources */,
+				F190C62315EF8D2C0066DF6E /* ReyShare.m in Sources */,
+				F190C62715EF8D2C0066DF6E /* ReyShare_OneKeyStep.m in Sources */,
+				F155171815F98FCA007E6456 /* AzDG.m in Sources */,
+				F155172615F99420007E6456 /* GTMBase64.m in Sources */,
+				F1A9471A15FE21960029A714 /* ReyImageView_down.m in Sources */,
+				F1A9472315FE3BEE0029A714 /* ReyLoadView.m in Sources */,
+				F12337B216528CB20019B122 /* ReyScrollView.m in Sources */,
+				F12337C7165344270019B122 /* ReyScrollView_detailView.m in Sources */,
+				F1F8E1681658ECE6004241B9 /* ReyBreakLoadView.m in Sources */,
+				F1F8E16C1658ECE6004241B9 /* Rey_BLV_item.m in Sources */,
+				F154B91B165DF949005FD947 /* ReyFilter.m in Sources */,
+				F154B922165DFE22005FD947 /* ReyFilter_smooth.m in Sources */,
+				F154B92E165E036E005FD947 /* ReyARBG.m in Sources */,
+				F154B938165F0AF3005FD947 /* ReyFilter_rainbow.m in Sources */,
+				F154B942165F413D005FD947 /* ReyFilter_sharpen.m in Sources */,
+				F17D871E16704514007B7F4F /* ReyIPAddress.m in Sources */,
+				F116408B16CF6B3800485FAD /* ReyDownloadManager.m in Sources */,
+				F116409116CF6B3800485FAD /* ReyDownloadItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F1113FBA14977605005E10C3 /* ReyError.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1113FB914977605005E10C3 /* en */,
+				F1113FBB1497760E005E10C3 /* zh-Hans */,
+			);
+			name = ReyError.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F165F127147DF4E100EA1F00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv7,
+					armv6,
+				);
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F165F128147DF4E100EA1F00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv7,
+					armv6,
+				);
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F165F12A147DF4E100EA1F00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DSTROOT = /tmp/ReyCore.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ReyCore/ReyCore-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/ReyCore/ZBarSDK\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = iphoneos;
+			};
+			name = Debug;
+		};
+		F165F12B147DF4E100EA1F00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DSTROOT = /tmp/ReyCore.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ReyCore/ReyCore-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/ReyCore/ZBarSDK\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = iphoneos;
+			};
+			name = Release;
+		};
+		F18B3BDF14F25CC50041865F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DSTROOT = /tmp/ReyCore.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ReyCore/ReyCore-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/ReyCore/ZBarSDK\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "ReyCore copy";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = iphonesimulator;
+			};
+			name = Debug;
+		};
+		F18B3BE014F25CC50041865F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DSTROOT = /tmp/ReyCore.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ReyCore/ReyCore-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/ReyCore/ZBarSDK\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "ReyCore copy";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = iphonesimulator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F165F119147DF4E100EA1F00 /* Build configuration list for PBXProject "ReyCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F165F127147DF4E100EA1F00 /* Debug */,
+				F165F128147DF4E100EA1F00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F165F129147DF4E100EA1F00 /* Build configuration list for PBXNativeTarget "ReyCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F165F12A147DF4E100EA1F00 /* Debug */,
+				F165F12B147DF4E100EA1F00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F18B3BDE14F25CC50041865F /* Build configuration list for PBXNativeTarget "ReyCorei386" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F18B3BDF14F25CC50041865F /* Debug */,
+				F18B3BE014F25CC50041865F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F165F116147DF4E100EA1F00 /* Project object */;
+}
