@@ -9,11 +9,6 @@
 #import "ReyDownloadItem.h"
 
 @interface ReyDownloadItem ()
-{
-    //预留接口.
-    //只对ReyDownloadManager可以见
-    id m_downloader;
-}
 
 @property (nonatomic , retain) id m_downloader;
 @end

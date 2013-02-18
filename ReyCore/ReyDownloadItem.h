@@ -49,6 +49,14 @@ typedef enum {
     //optional
     //item持有者
     id          owner;
+    
+    
+    
+    
+    
+    //预留接口.
+    //只对ReyDownloadManager可以见
+    id m_downloader;
 }
 
 @property (nonatomic)          ReyDownloadItemType type;
