@@ -457,6 +457,16 @@
 		F1FC121914DE744A003A1032 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1FC121814DE744A003A1032 /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		F1BFE9B116D481D800CDF8B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1BFE9AD16D481D800CDF8B4 /* ReyCoreBundle.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F1BFE99516D37C3D00CDF8B4;
+			remoteInfo = ReyCoreBundle;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		F10192D314DFA1CD001716F2 /* ReySlipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReySlipView.h; sourceTree = "<group>"; };
 		F10192D414DFA1CD001716F2 /* ReySlipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReySlipView.m; sourceTree = "<group>"; };
@@ -488,7 +498,6 @@
 		F12D309415206B120022A198 /* ReyDownload_cache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyDownload_cache.m; sourceTree = "<group>"; };
 		F1300F7814979B87001AA8E3 /* ReyLoading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyLoading.h; sourceTree = "<group>"; };
 		F1300F7914979B87001AA8E3 /* ReyLoading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyLoading.m; sourceTree = "<group>"; };
-		F138906E15CFA7940066A5F9 /* ReyMask@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ReyMask@2x.png"; sourceTree = "<group>"; };
 		F138908E15CFB7510066A5F9 /* ReyLabel_rocker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyLabel_rocker.h; sourceTree = "<group>"; };
 		F138908F15CFB7510066A5F9 /* ReyLabel_rocker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyLabel_rocker.m; sourceTree = "<group>"; };
 		F13951251520C41E00AF8244 /* ReyAlert_autoDisconnect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyAlert_autoDisconnect.h; sourceTree = "<group>"; };
@@ -621,13 +630,12 @@
 		F1A9471615FE21960029A714 /* ReyImageView_down.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyImageView_down.m; sourceTree = "<group>"; };
 		F1A9471E15FE3BEE0029A714 /* ReyLoadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyLoadView.h; sourceTree = "<group>"; };
 		F1A9471F15FE3BEE0029A714 /* ReyLoadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyLoadView.m; sourceTree = "<group>"; };
-		F1A9A2721609736000832230 /* Rey_close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rey_close@2x.png"; sourceTree = "<group>"; };
 		F1A9EBF114F268A100561BA3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		F1B87D1214B555AD0072F6A9 /* ReyRockerEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyRockerEvent.h; sourceTree = "<group>"; };
 		F1B87D1314B555AD0072F6A9 /* ReyRockerEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyRockerEvent.m; sourceTree = "<group>"; };
 		F1B89C0314C45F8400D9BF7C /* ReyAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyAlert.h; sourceTree = "<group>"; };
 		F1B89C0414C45F8400D9BF7C /* ReyAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyAlert.m; sourceTree = "<group>"; };
-		F1BFE9AA16D47F6B00CDF8B4 /* ReyCoreBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = ReyCoreBundle.bundle; path = ../../ReyCoreBundle.bundle; sourceTree = "<group>"; };
+		F1BFE9AD16D481D800CDF8B4 /* ReyCoreBundle.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ReyCoreBundle.xcodeproj; path = ReyCoreBundle/ReyCoreBundle.xcodeproj; sourceTree = SOURCE_ROOT; };
 		F1C1B2911535549E00B2A94B /* ReyAlert_outGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyAlert_outGame.h; sourceTree = "<group>"; };
 		F1C1B2921535549E00B2A94B /* ReyAlert_outGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyAlert_outGame.m; sourceTree = "<group>"; };
 		F1C1B2931535549E00B2A94B /* ReyOutGameAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyOutGameAlert.h; sourceTree = "<group>"; };
@@ -835,9 +843,7 @@
 		F138906D15CFA7940066A5F9 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				F1BFE9AA16D47F6B00CDF8B4 /* ReyCoreBundle.bundle */,
-				F1A9A2721609736000832230 /* Rey_close@2x.png */,
-				F138906E15CFA7940066A5F9 /* ReyMask@2x.png */,
+				F1BFE9AD16D481D800CDF8B4 /* ReyCoreBundle.xcodeproj */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -1351,6 +1357,14 @@
 			name = ReyRocker;
 			sourceTree = "<group>";
 		};
+		F1BFE9AE16D481D800CDF8B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1BFE9B216D481D800CDF8B4 /* ReyCoreBundle.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		F1C1B2901535545500B2A94B /* ReyAlert_outGame */ = {
 			isa = PBXGroup;
 			children = (
@@ -1848,6 +1862,12 @@
 			mainGroup = F165F114147DF4E100EA1F00;
 			productRefGroup = F165F120147DF4E100EA1F00 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = F1BFE9AE16D481D800CDF8B4 /* Products */;
+					ProjectRef = F1BFE9AD16D481D800CDF8B4 /* ReyCoreBundle.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				F165F11E147DF4E100EA1F00 /* ReyCore */,
@@ -1855,6 +1875,16 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		F1BFE9B216D481D800CDF8B4 /* ReyCoreBundle.bundle */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ReyCoreBundle.bundle;
+			remoteRef = F1BFE9B116D481D800CDF8B4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F165F11B147DF4E100EA1F00 /* Sources */ = {
