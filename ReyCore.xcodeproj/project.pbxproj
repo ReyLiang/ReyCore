@@ -488,7 +488,7 @@
 		F12D309415206B120022A198 /* ReyDownload_cache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyDownload_cache.m; sourceTree = "<group>"; };
 		F1300F7814979B87001AA8E3 /* ReyLoading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyLoading.h; sourceTree = "<group>"; };
 		F1300F7914979B87001AA8E3 /* ReyLoading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyLoading.m; sourceTree = "<group>"; };
-		F138906E15CFA7940066A5F9 /* ReyMask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ReyMask.png; sourceTree = "<group>"; };
+		F138906E15CFA7940066A5F9 /* ReyMask@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ReyMask@2x.png"; sourceTree = "<group>"; };
 		F138908E15CFB7510066A5F9 /* ReyLabel_rocker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyLabel_rocker.h; sourceTree = "<group>"; };
 		F138908F15CFB7510066A5F9 /* ReyLabel_rocker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyLabel_rocker.m; sourceTree = "<group>"; };
 		F13951251520C41E00AF8244 /* ReyAlert_autoDisconnect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyAlert_autoDisconnect.h; sourceTree = "<group>"; };
@@ -627,6 +627,7 @@
 		F1B87D1314B555AD0072F6A9 /* ReyRockerEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyRockerEvent.m; sourceTree = "<group>"; };
 		F1B89C0314C45F8400D9BF7C /* ReyAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyAlert.h; sourceTree = "<group>"; };
 		F1B89C0414C45F8400D9BF7C /* ReyAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyAlert.m; sourceTree = "<group>"; };
+		F1BFE9AA16D47F6B00CDF8B4 /* ReyCoreBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = ReyCoreBundle.bundle; path = ../../ReyCoreBundle.bundle; sourceTree = "<group>"; };
 		F1C1B2911535549E00B2A94B /* ReyAlert_outGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyAlert_outGame.h; sourceTree = "<group>"; };
 		F1C1B2921535549E00B2A94B /* ReyAlert_outGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReyAlert_outGame.m; sourceTree = "<group>"; };
 		F1C1B2931535549E00B2A94B /* ReyOutGameAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReyOutGameAlert.h; sourceTree = "<group>"; };
@@ -834,8 +835,9 @@
 		F138906D15CFA7940066A5F9 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				F1BFE9AA16D47F6B00CDF8B4 /* ReyCoreBundle.bundle */,
 				F1A9A2721609736000832230 /* Rey_close@2x.png */,
-				F138906E15CFA7940066A5F9 /* ReyMask.png */,
+				F138906E15CFA7940066A5F9 /* ReyMask@2x.png */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
