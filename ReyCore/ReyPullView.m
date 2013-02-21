@@ -128,7 +128,10 @@
 -(void)initMaskAndPulledView
 {
     CALayer * maskLayer = [CALayer layer];
-    maskLayer.contents = (id)[UIImage imageNamed:MASK_IMAGENAME].CGImage;
+    
+    NSBundle * bundle = [[NSBundle alloc] initWithPath:[[NSBundle mainBundle] pathForResource:@"ReyCoreBundle" ofType:@"bundle"]];
+    UIImage * maskImage = [UIImage imageWithContentsOfFile:[bundle pathForResource:MASK_IMAGENAME ofType:@"png"]];
+    maskLayer.contents = (id)maskImage.CGImage;
     
     self.layer.mask = maskLayer;
     self.layer.masksToBounds = YES;

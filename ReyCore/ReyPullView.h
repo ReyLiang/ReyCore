@@ -38,7 +38,7 @@
 #import "ReyPullView_moveBtn.h"
 
 #define EFFECTIVE_DISTANCE 50
-#define MASK_IMAGENAME @"ReyMask"
+#define MASK_IMAGENAME @"ReyMask@2x"
 
 @protocol ReyPullViewDelegate;
 
