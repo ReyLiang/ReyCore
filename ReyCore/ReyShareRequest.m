@@ -173,6 +173,7 @@
     
     NSMutableData * resultData = [NSMutableData dataWithData:[str dataUsingEncoding:NSUTF8StringEncoding]];
     [resultData appendData:data];
+    [resultData appendData:[[NSString stringWithFormat:@"\r\n"] dataUsingEncoding:NSUTF8StringEncoding]];
     
     return resultData;
 }
@@ -184,7 +185,7 @@
 //    NSLog(@"%@",str);
     
     NSMutableData * resultData = [NSMutableData dataWithData:[str dataUsingEncoding:NSUTF8StringEncoding]];
-    [resultData appendData:UIImagePNGRepresentation(image)];\
+    [resultData appendData:UIImagePNGRepresentation(image)];
     [resultData appendData:[[NSString stringWithFormat:@"\r\n"] dataUsingEncoding:NSUTF8StringEncoding]];
     
     return resultData;
